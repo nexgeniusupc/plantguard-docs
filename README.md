@@ -2,6 +2,13 @@
 
 System architecture documentation for PlantGuard, an IoT water monitoring device and mobile app.
 
+## Requirements
+
+- [Node.js](https://nodejs.org/en) (LTS, only tested with 18).
+  - **Recommended:** install using a version manager like [nvm](https://github.com/nvm-sh/nvm) or [nvm-windows](https://github.com/coreybutler/nvm-windows).
+- [Yarn v2](https://yarnpkg.com/)
+  - **Recommended:** enable corepack to automatically install Yarn: `corepack enable` on any terminal.
+
 ## Generating bundle
 
 Run the following command:
