@@ -90,3 +90,7 @@ Syntax highlighting for code blocks is handled automatically by [highlight.js](h
 ### Friendly URLs
 
 Slugs for the table of contents and anchors are handled by [@sindresorhus/slugify](https://www.npmjs.com/package/@sindresorhus/slugify).
+
+## License
+
+[MIT](LICENSE)
