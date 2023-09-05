@@ -31,8 +31,8 @@ await fs.mkdir(outputFolder, { recursive: true });
 // Create symlinks for styles and static folders
 const stylesFolder = path.resolve(__dirname, "css/");
 const staticFolder = path.resolve(inputFolder, "static/");
-await ensureSymlink(stylesFolder, path.resolve(outputFolder, "css/"), "dir");
-await ensureSymlink(staticFolder, path.resolve(outputFolder, "static/"), "dir");
+await ensureSymlink(stylesFolder, path.resolve(outputFolder, "css/"), "junction");
+await ensureSymlink(staticFolder, path.resolve(outputFolder, "static/"), "junction");
 
 const preprocessor = new Preprocessor({
   dirname: inputFolder,
