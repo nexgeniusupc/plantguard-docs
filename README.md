@@ -9,6 +9,22 @@ System architecture documentation for PlantGuard, an IoT water monitoring device
 - [Yarn v2](https://yarnpkg.com/)
   - **Recommended:** enable corepack to automatically install Yarn: `corepack enable` on any terminal.
 
+## Installing modules
+
+Just run `yarn` on the workspace directory.
+
+### Execution Policy and PowerShell
+
+If you get any errors about an Execution Policy while trying to run any of the scripts provided in PowerShell, run the following command:
+
+```pwsh
+PS> Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
+Execution Policy Change
+The execution policy helps protect you from scripts that you do not trust. Changing the execution policy might expose you to the security risks described in the about_Execution_Policies help topic at
+https://go.microsoft.com/fwlink/?LinkID=135170. Do you want to change the execution policy?
+[Y] Yes  [N] No  [S] Suspend  [?] Help (default is "Y"): Y
+```
+
 ## Generating bundle
 
 Run the following command:
