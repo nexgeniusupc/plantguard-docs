@@ -121,18 +121,32 @@ This can be used to include other Markdown files to the entrypoint file, allowin
 
 This can also be used to include any text file, which can be useful to include examples for code blocks. For example:
 
+<details>
+<summary>
+example.js
+</summary>
+
 ```javascript
-// file: example.js
 console.log("Hello world");
 ```
 
-````markdown
-<!-- file: index.md -->
+</details>
 
+<details>
+<summary>
+index.md
+</summary>
+
+> You can safely ignore the `// prettier-ignore` line, it is just needed to show the example correctly in this file.
+
+````markdown
 ```javascript
-!include(example.js);
+// prettier-ignore
+!include (example.js);
 ```
 ````
+
+</details>
 
 This will be preprocessed to the following Markdown document before rendering to HTML:
 
