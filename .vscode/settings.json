@@ -2,6 +2,9 @@
   "git.autofetch": true,
   "files.insertFinalNewline": true,
   "editor.rulers": [120],
+  "[markdown]": {
+    "editor.rulers": []
+  },
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
     "source.fixAll.stylelint": true,
@@ -11,6 +14,7 @@
   "editor.suggest.preview": true,
   "editor.bracketPairColorization.enabled": true,
   "livePreview.serverRoot": "output",
+  "livePreview.autoRefreshPreview": "On Changes to Saved Files",
   "javascript.preferences.quoteStyle": "double",
   "javascript.referencesCodeLens.enabled": true,
   "typescript.preferences.quoteStyle": "double",
