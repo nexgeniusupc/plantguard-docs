@@ -142,6 +142,22 @@ console.log("Hello world");
 ```
 ````
 
+### Static files
+
+Any images or other static files you want to include in your document must go on the `docs/static/` folder. This folder will get symlinked (or junctioned in Windows systems) to the `output/` folder so that the resulting HTML file can access it.
+
+For example, the following document:
+
+```markdown
+![Alt text](static/image.png "Title")
+```
+
+Will render as:
+
+```html
+<img src="static/image.png" alt="Alt text" title="Title" />
+```
+
 ### Inserting page breaks
 
 ```markdown
