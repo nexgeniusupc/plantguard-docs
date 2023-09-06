@@ -99,6 +99,16 @@ In the [rendered template](src/templates/markdown-template.hbs):
 - `title` will be used for the header title element: `<title>{{title}}</title>`.
 - `lang` will be used for the `html` tag attribute with the same name: `<html lang="{{lang}}">...</html>`
 
+### Inserting table of contents
+
+You can use any of the supported methods of [markdown-it-toc-done-right](https://www.npmjs.com/package/markdown-it-toc-done-right) to insert an automatic table of contents from the headers detected in the document. For example:
+
+```markdown
+## Table of contents
+
+${toc}
+```
+
 ### Inserting page breaks
 
 ```markdown
