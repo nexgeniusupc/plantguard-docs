@@ -172,6 +172,21 @@ This will create an empty element with the class `.page-break`, as follows:
 
 This element is setup to force a page break on the printed PDF file. It **will not** be shown in the HTML preview.
 
+### Styling the document
+
+The styles used by default are used in the following order:
+
+- A modified version of the [Visual Studio Code light theme stylesheet](https://github.com/microsoft/vscode/blob/main/extensions/markdown-language-features/media/markdown.css) for the preview window.
+- A modified version of the [stylesheet](https://github.com/yzane/vscode-markdown-pdf/blob/master/styles/markdown-pdf.css) used by [Yzane's Markdown PDF Visual Studio Code extension](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf).
+- A modified version of the [printing styles](https://github.com/h5bp/html5-boilerplate/blob/72cdf1e96c6506c76c51e53abc1f2bd224776649/css/main.css#L234-L304) used by [HTML5 Boilerplate template](https://github.com/h5bp/html5-boilerplate/).
+- A modified version of highlight.js [Visual Studio light theme](https://github.com/highlightjs/highlight.js/blob/main/src/styles/vs.css).
+
+#### Custom styles
+
+If you need to create custom styles for your document, you can include them in the file located at [`src/css/custom.css`](src/css/custom.css). This file will be loaded last so that you can override any of the base stylesheets.
+
+To use your custom styles in your Markdown files, check the documentation of the [markdown-it-attrs](https://www.npmjs.com/package/markdown-it-attrs) plugin.
+
 ### Loaded plugins for markdown-it
 
 In order of execution:
