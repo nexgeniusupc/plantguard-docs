@@ -109,6 +109,39 @@ You can use any of the supported methods of [markdown-it-toc-done-right](https:/
 ${toc}
 ```
 
+### Including files
+
+You can include any file in the `docs/` directory by using the following syntax:
+
+```markdown
+!include (file.ext)
+```
+
+This can be used to include other Markdown files to the entrypoint file, allowing you to separate your content into multiple files.
+
+This can also be used to include any text file, which can be useful to include examples for code blocks. For example:
+
+```javascript
+// file: example.js
+console.log("Hello world");
+```
+
+````markdown
+<!-- file: index.md -->
+
+```javascript
+!include(example.js);
+```
+````
+
+This will be preprocessed to the following Markdown document before rendering to HTML:
+
+````markdown
+```javascript
+console.log("Hello world");
+```
+````
+
 ### Inserting page breaks
 
 ```markdown
