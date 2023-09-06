@@ -23,7 +23,7 @@ Create a [duplicate of the repository](https://docs.github.com/en/repositories/c
 
 ```sh
 # Add the upstream remote to your local copy of the repository
-git add remote upstream https://github.com/dalbitresb12/markdown-docs.git
+git remote add upstream https://github.com/dalbitresb12/markdown-docs.git
 # Pull and merge the changes from the upstream
 git pull upstream main
 # Push the resulting commits to your repository
