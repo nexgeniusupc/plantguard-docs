@@ -7,13 +7,14 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Launch cli.ts",
+      "name": "Launch index.ts",
       "skipFiles": ["<node_internals>/**"],
       "env": {
-        "NODE_OPTIONS": "--no-warnings=ExperimentalWarning --loader tsx"
+        "NODE_OPTIONS": "--no-warnings=ExperimentalWarning --loader tsx",
+        "DEBUG": "true"
       },
-      "program": "${workspaceFolder}/src/cli.ts",
-      "args": ["${input:command}"],
+      "program": "${workspaceFolder}/src/index.ts",
+      "args": ["${input:command}", "${input:watch}"],
       "outFiles": ["${workspaceFolder}/**/*.ts"],
       "console": "integratedTerminal"
     }
@@ -21,10 +22,17 @@
   "inputs": [
     {
       "id": "command",
-      "description": "Select command to execute from cli.ts",
+      "description": "Select command to execute from index.ts",
       "type": "pickString",
-      "options": ["render", "watch"],
-      "default": "watch"
+      "options": ["render", "serve"],
+      "default": "render"
+    },
+    {
+      "id": "watch",
+      "description": "Enable watch mode?",
+      "type": "pickString",
+      "options": ["--watch", "--no-watch"],
+      "default": "--watch"
     }
   ]
 }
