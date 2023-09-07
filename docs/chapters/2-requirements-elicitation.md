@@ -2,6 +2,10 @@
 
 #### Análisis competitivo
 
+<!-- !include (../partials/analisis-competitivo-tabla.md) -->
+
+!include (../partials/analisis-competitivo-tabla.html)
+
 #### Estrategias y tácticas frente a competidores
 
 ### Entrevistas
