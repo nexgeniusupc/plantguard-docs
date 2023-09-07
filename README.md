@@ -1,10 +1,10 @@
-# Markdown Documentation
+# PlantGuard System Documentation
 
-Write documentation using Markdown, preview as HTML with live reload and render as PDF. Version control your document with Git.
+System architecture documentation for PlantGuard, an IoT water monitoring device and mobile app.
 
-## Why?
+Written using [markdown-docs](https://github.com/dalbitresb12/markdown-docs) by [dalbitresb12](https://github.com/dalbitresb12).
 
-There's probably a lot of easier ways to do this. I just wanted to doing this in my own way. I also needed this for a project at uni.
+The rest of the README is from the original repository.
 
 ## Requirements
 
