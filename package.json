@@ -1,18 +1,18 @@
 {
-  "name": "plantguard-docs",
+  "name": "markdown-docs",
   "version": "0.0.0",
-  "description": "System architecture documentation for PlantGuard, an IoT water monitoring device and mobile app.",
+  "description": "Write documentation using Markdown, preview as HTML with live reload and render as PDF. Version control your document with Git.",
   "author": {
-    "name": "NexGenius",
-    "email": "nexgenius@dalbitresb.com"
+    "name": "dalbitresb12",
+    "email": "me@dalbitresb.com"
   },
-  "homepage": "https://github.com/nexgeniusupc/plantguard-docs",
+  "homepage": "https://github.com/dalbitresb12/markdown-docs",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nexgeniusupc/plantguard-docs.git"
+    "url": "git+https://github.com/dalbitresb12/markdown-docs.git"
   },
   "bugs": {
-    "url": "https://github.com/nexgeniusupc/plantguard-docs/issues"
+    "url": "https://github.com/dalbitresb12/markdown-docs/issues"
   },
   "license": "MIT",
   "private": true,
