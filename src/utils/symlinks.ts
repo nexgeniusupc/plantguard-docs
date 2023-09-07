@@ -1,9 +1,13 @@
 import fs from "node:fs/promises";
 import { relative } from "node:path";
 
+import environment from "./env.js";
 import { createLogger } from "./logger.js";
 
 const logger = createLogger("symlink");
+if (environment.get("CF_PAGES")) {
+  logger.info("Using copy instead of symlinks due to being run on Cloudflare Pages.");
+}
 
 export type SymlinkType = "dir" | "file" | "junction";
 
@@ -25,7 +29,12 @@ export async function ensureSymlink(target: string, from: string, type?: Symlink
     }
     return logger.warn(`Found symlink for ${simplify(from)} but it has another target: ${simplify(currentTarget)}.`);
   } catch {
-    await fs.symlink(target, from, type);
-    logger.debug(`Created symlink from ${simplify(from)} to ${simplify(target)}.`);
+    if (environment.get("CF_PAGES")) {
+      await fs.cp(target, from, { recursive: true, dereference: true, force: true });
+      logger.debug(`Copied files from ${simplify(target)} to ${simplify(from)}.`);
+    } else {
+      await fs.symlink(target, from, type);
+      logger.debug(`Created symlink from ${simplify(from)} to ${simplify(target)}.`);
+    }
   }
 }
