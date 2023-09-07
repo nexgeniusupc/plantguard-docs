@@ -67,9 +67,9 @@ yarn watch
 
 ### Previewing
 
-Currently, there's no integrated server with live reload. There's plans for an integrated server, but on the meantime please use Visual Studio Code's [Live Server](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server) extension from Microsoft.
+Currently, there's no integrated server with live reload. There's plans for an integrated server, but on the meantime please use Ritwick Dey's [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension.
 
-The repository already includes the configuration neccesary to use this extension correctly. Just right-click on the output file (`output/index.html`), then on `Show Preview`.
+The repository already includes the configuration necessary to use this extension correctly. Just click on the "Go Live" button on the status bar (the bottom bar).
 
 ### PDF generation
 

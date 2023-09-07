@@ -1,29 +1,52 @@
-import { render, watch } from "./render.js";
+import { parseArgs as parseArgsNative } from "node:util";
+
+import { HintedString, MaybePromise } from "./utils/helpers.js";
 import { createLogger } from "./utils/logger.js";
 
 const logger = createLogger("cli");
 
-const args = process.argv.slice(2);
+export const CLICommand = ["render"] as const;
+export type CLICommand = HintedString<(typeof CLICommand)[number]>;
 
-if (args.length === 0) {
-  args.push("render");
+export function isValidCommand(command: string): command is CLICommand {
+  return (CLICommand as readonly string[]).includes(command);
 }
 
-const [command] = args;
+export interface CLIArgs {
+  command: CLICommand;
+  watch?: boolean;
+}
 
-switch (command) {
-  case "render": {
-    logger.info("Initializing rendering engine...");
-    await render();
-    break;
+export function parseArgs(): CLIArgs {
+  logger.debug(`Using arguments: [${process.argv.join(", ")}]`);
+
+  const { positionals, values } = parseArgsNative({
+    allowPositionals: true,
+    options: {
+      "watch": {
+        type: "boolean",
+        default: false,
+        short: "w",
+      },
+      "no-watch": {
+        type: "boolean",
+        default: false,
+      },
+    },
+  });
+
+  if (!isValidCommand(positionals[0])) {
+    logger.debug(`An unknown command was found while parsing arguments: ${positionals[0]}`);
   }
-  case "watch": {
-    logger.info("Starting in watch mode...");
-    await watch();
-    break;
-  }
-  default: {
-    logger.error(`Unknown command: '${command}'.`);
-    break;
-  }
+
+  return {
+    command: positionals[0],
+    watch: values.watch && !values["no-watch"],
+  };
+}
+
+export interface CLICommandHandler {
+  get name(): string;
+  matches(args: CLIArgs): boolean;
+  run(args: CLIArgs): MaybePromise<void>;
 }

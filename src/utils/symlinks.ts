@@ -21,11 +21,11 @@ export async function ensureSymlink(target: string, from: string, type?: Symlink
     }
     const currentTarget = await fs.readlink(from, { encoding: "utf8" });
     if (relative(target, currentTarget) === "") {
-      return logger.info(`Found symlink from ${simplify(from)} to ${simplify(target)}.`);
+      return logger.debug(`Found symlink from ${simplify(from)} to ${simplify(target)}.`);
     }
     return logger.warn(`Found symlink for ${simplify(from)} but it has another target: ${simplify(currentTarget)}.`);
   } catch {
     await fs.symlink(target, from, type);
-    logger.info(`Created symlink from ${simplify(from)} to ${simplify(target)}.`);
+    logger.debug(`Created symlink from ${simplify(from)} to ${simplify(target)}.`);
   }
 }

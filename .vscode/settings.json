@@ -13,8 +13,22 @@
   "editor.linkedEditing": true,
   "editor.suggest.preview": true,
   "editor.bracketPairColorization.enabled": true,
-  "livePreview.serverRoot": "output",
-  "livePreview.autoRefreshPreview": "On Changes to Saved Files",
+  "liveServer.settings.root": "/output",
+  "liveServer.settings.mount": [
+    ["/static", "./docs/static"],
+    ["/css", "./src/css"]
+  ],
+  "liveServer.settings.ignoreFiles": [
+    ".vscode/**",
+    ".yarn/**",
+    "yarn.lock",
+    "node_modules/**",
+    "docs/**",
+    "src/**/*.ts",
+    "src/**/*.hbs",
+    "**/*.json",
+    "**/*.yml"
+  ],
   "javascript.preferences.quoteStyle": "double",
   "javascript.referencesCodeLens.enabled": true,
   "typescript.preferences.quoteStyle": "double",
