@@ -1,1 +1,6 @@
 /* Any styles you write here will be included in the rendered document */
+
+/* Reduce space taken by unordered list bullets in tables */
+table td ul {
+  padding-inline-start: 30px;
+}
