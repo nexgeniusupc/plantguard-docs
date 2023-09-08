@@ -70,9 +70,9 @@ La pregunta que buscamos responder es la siguiente: ¿cómo mejoramos la calidad
 
 Luego de haber aplicado el Lean UX process y abarcar a la visión del modelo de negocio que será soportado por nuestra plataforma, incluyendo el Problem Statement, los Assumptions e Hypothesis Statements, a continuación, se muestra en captura nuestro Lean UX Canvas, el cual se desarrolló en base al Lean UX process previamente realizado.
 
-<!-- TODO: Usar el modelo de Canvas de Mural, exportar e incrustar aquí -->
+![Lean UX Canvas](../static/lean-ux-canvas.png)
 
-Se puede acceder al Canvas también a través del siguiente enlace: <https://app.mural.co/>.
+Se puede acceder al Canvas también a través del siguiente enlace: <https://app.mural.co/t/upc96530/m/upc96530/1694166619515/ac4f80f6c6ae9e7f88c93798e850fa0e90c1b538?sender=ua85b805e4c11d590490b6516>.
 
 #### Segmentos objetivo
 
