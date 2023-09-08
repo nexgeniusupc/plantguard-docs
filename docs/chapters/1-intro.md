@@ -52,9 +52,9 @@ La pregunta que buscamos responder es la siguiente: ¿cómo mejoramos la calidad
 
 ###### Business Assumptions
 
-<!-- TODO: Añadir nombres de sistemas con son competencia directa después de la investigación -->
+<!-- TODO: Use BibTeX for the reference -->
 
-- Mi competencia principal en el mercado serán sistemas similares que implementan ideas de sistemas IoT para el cuidado de plantas, jardines y cultivos personales.
+- Mi competencia principal en el mercado serán sistemas similares como el realizado por Absar et al. (2023) que implementan ideas de sistemas IoT para el cuidado de plantas, jardines y cultivos personales.
 - Los venceremos debido a que somos un startup especializado en este tipo de tecnologías, buscando la mayor satisfacción de nuestros usuarios al menor costo posible y con la mayor transparencia, mientras mantenemos la privacidad de los datos recopilados de nuestros usuarios.
 - Mi mayor riesgo es que las personas decidan que este sistema no es beneficioso para ellos, optando por hacerlo de manera manual o prefieran una alternativa de la competencia.
 - Resolveremos esto presentando un producto de calidad, manteniendo la transparencia y protección de privacidad que muchos proveedores en el mercado no pueden garantizar, mientras ofrecemos el precio más accesible para que la mayor cantidad de personas puedan hacer uso de este sistema.
