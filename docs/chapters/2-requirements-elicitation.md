@@ -61,6 +61,10 @@ El User Persona cuyo nombre es Daniel Smith es un personaje ficticio que represe
 
 #### User Task Matrix
 
+Se desarrolló el User Task Matrix para identificar y priorizar las tareas del usuario en función de su frecuencia y importancia, lo que permitirá mejorar la experiencia del usuario y la eficacia del producto PlantGuard, con el fin de elaborar un adecuado User Task Matrix se toma como referencia a los segmentos objetivos identificados, y el análisis de nuestras entrevistas realizadas.
+
+![User Task Matrix](../static/user-task-matrix.png)
+
 #### Empathy Mapping
 
 Esta herramienta nos permitió entender mejor a nuestro sector objetivo, pues nos permite ver el mundo a través de su perspectiva.
