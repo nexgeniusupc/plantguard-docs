@@ -1,1 +1,15 @@
 /* Any styles you write here will be included in the rendered document */
+
+.team-member-container {
+  display: flex;
+}
+
+.team-member-container .team-member-img-container {
+  margin-right: 1rem;
+  min-width: 20%;
+}
+
+.team-member-container img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+}
