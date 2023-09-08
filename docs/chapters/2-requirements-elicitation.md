@@ -44,6 +44,10 @@ Se formularon las siguientes preguntas que nos ayudarán a conocer sobre las rut
 
 #### Empathy Mapping
 
+Esta herramienta nos permitió entender mejor a nuestro sector objetivo, pues nos permite ver el mundo a través de su perspectiva.
+
+![Empathy Mapping](../static/empathy-mapping.png)
+
 #### As-is Scenario Mapping
 
 ![As-is Scenario Mapping](../static/as-is-scenario-mapping.png)
