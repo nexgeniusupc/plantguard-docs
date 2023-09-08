@@ -40,6 +40,10 @@ Se formularon las siguientes preguntas que nos ayudarán a conocer sobre las rut
 
 #### User Personas
 
+El User Persona cuyo nombre es Daniel Smith es un personaje ficticio que representa a los principales usuarios que tiene PlantGuard, quienes serían los usuarios dueños de las plantas. Este personaje fue creado en base a las entrevistas realizadas.
+
+![User Persona Enthusiast PlantCare](../static/user-persona-plantcare-enthusiast.png)
+
 #### User Task Matrix
 
 #### Empathy Mapping
