@@ -72,7 +72,7 @@ Luego de haber aplicado el Lean UX process y abarcar a la visión del modelo de 
 
 ![Lean UX Canvas](../static/lean-ux-canvas.png)
 
-Se puede acceder al Canvas también a través del siguiente enlace: [Link to Lean UX Canvas.](https://app.mural.co/t/upc96530/m/upc96530/1694166619515/ac4f80f6c6ae9e7f88c93798e850fa0e90c1b538?sender=ua85b805e4c11d590490b6516)
+Se puede acceder al Canvas también a través del siguiente enlace: <https://app.mural.co/t/upc96530/m/upc96530/1694166619515/ac4f80f6c6ae9e7f88c93798e850fa0e90c1b538?sender=ua85b805e4c11d590490b6516>.
 
 #### Segmentos objetivo
 
