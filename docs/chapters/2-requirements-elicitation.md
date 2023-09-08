@@ -18,16 +18,19 @@ De tal manera, nos enfocamos en resaltar tanto la aplicación como nuestra marca
 
 Se formularon las siguientes preguntas que nos ayudarán a conocer sobre las rutinas, metodologías y actividades de los usuarios propuestos para las entrevistas. A continuación, se muestran las preguntas que se realizar a nuestros entrevistados, quienes serían cuidadores de plantas en casa.
 
-- ¿Cuántas plantas cuidas actualmente? Puedes incluir plantas que tengas en casa como en otros lugares pero que usted sea responsable de su bienestar.
+- ¿Cuántas plantas aproximadamente cuidas actualmente? Puedes incluir plantas que tengas en casa como en otros lugares pero que usted sea responsable de su bienestar.
 - ¿Qué tipos de plantas tiene actualmente?
 - ¿Cada cuánto se encarga de regar estas plantas?
 - ¿Tiene idea de cuánta agua necesitan estas plantas para tener una vida saludable?
-- ¿Lleva usted un control de las veces que estas plantas reciben agua?
+  - Si conoce, ¿cómo obtuvo esta información?
+  - Si no conoce, ¿cómo obtendría esta información?
+- ¿Lleva usted un control de las veces que estas plantas reciben agua (u otros cuidados, si existieran)?
 - ¿Qué es lo que usted hace cada vez que debe cuidar de estas plantas? Mejor dicho, ¿qué tipo de cuidados le da a estas plantas?
 - ¿Cuánto tiempo suele tomar de su día para realizar estas actividades de cuidado?
-- ¿Hay algún costo asociado con estas actividades?
-- Si pudiera medir cualquier tipo de valor del entorno de sus plantas, ¿qué valores le gustaría medir?
+- ¿Hay algún costo asociado con estas actividades de cuidado?
+- Si pudiera realizar mediciones sobre el entorno de sus plantas, ¿qué le gustaría medir?
   - Por ejemplo: temperatura, humedad del suelo, Ph de la tierra, o alguno otro que usted conozca.
+- ¿Qué dificultades presenta, si las hubiera, para mantener sus plantas saludables?
 
 #### Registro de entrevistas
 
