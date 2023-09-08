@@ -34,7 +34,22 @@ Se formularon las siguientes preguntas que nos ayudarán a conocer sobre las rut
 
 #### Registro de entrevistas
 
+##### Entrevista N°1
+
+![Entrevista Rosa Panduro](../static/entrevista-rosa-panduro.png)
+
+- Nombre: Rosa Panduro
+- Edad: 67 años
+- Residencia: Chile
+- Segmento Objetivo: Cuidadores de plantas
+- Enlace de entrevista: <https://youtu.be/jPeZ02z1d5Y>.
+- Resumen: Rosa nos comenta que actualmente ella cuida de aproximadamente 300 plantas, dividas entre su casa en Chile y su residencia en Perú, entre las cuales tenemos tipos como vegetales y plantas ornamentales. Ella suele regar sus plantas, dependiendo de la estación, en verano cada 2 o 3 días pero en invierno cada 15 días. Ella no ha investigado previamente sobre el tema, pero tiene experiencia en ello desde pequeña por el huerto de su mamá y por los años que lleva aprendiendo por prueba y error. Ella no suele registrar cuando riega sus plantas, solo se guía según su memoria. Entre los cuidados especiales que le da a sus plantas, menciona que usa materiales orgánicos como un adicional, como cascaras de fruta. Finalmente, nos detalla que realizar estas actividades le suele tomar un día entero por el tamaño de su jardín.
+
 #### Análisis de entrevistas
+
+En esta sección se realizará el análisis de las entrevistas aplicadas a nuestro segmento objetivo. Se identificará con sustento estadístico tendencias y valores representativos de cada segmento y que son necesarios para la construcción de los arquetipos.
+
+<!-- TODO: Realizar análisis estadístico después de grabar más entrevistas -->
 
 ### Needfinding
 
