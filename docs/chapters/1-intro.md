@@ -36,7 +36,7 @@ Analizamos la problemática mediante la técnica de las 5W (_Who, What, Where, W
 
 Hemos notado que los usuarios no siempre cuentan con el tiempo disponible para el cuidado correcto de sus plantas. Esto se debe a múltiple motivos, ya sea un horario laboral complicado, con tiempos de desplazamiento largos. También se presenta en casa cuando las labores del día a día no permiten un tiempo libre para el monitoreo de estas plantas.
 
-También podemos identificar que los usuarios, al no tener las herramientas adecuadas, no son capaces de medir factores como la humedad del sueño o la temperatura, los cuales permitirían tener una mejor idea de cómo hacer un mejor cuidado de estas plantas.
+También podemos identificar que los usuarios, al no tener las herramientas adecuadas, no son capaces de medir factores como la humedad del suelo o la temperatura, los cuales permitirían tener una mejor idea de cómo hacer un mejor cuidado de estas plantas.
 
 La pregunta que buscamos responder es la siguiente: ¿cómo mejoramos la calidad de vida de las plantas de los usuarios sin afectar sus labores diarias?
 
