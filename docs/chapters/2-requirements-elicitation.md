@@ -45,3 +45,6 @@ Se formularon las siguientes preguntas que nos ayudarán a conocer sobre las rut
 #### Empathy Mapping
 
 #### As-is Scenario Mapping
+<div class="as-is-map-img-container">
+  <img src="../static/as-is-scenario-mapping.png" alt="As-is Scenario Mapping" title="As-is Scenario Mapping" />
+</div>
