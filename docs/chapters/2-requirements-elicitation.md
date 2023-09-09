@@ -29,7 +29,7 @@ Se formularon las siguientes preguntas que nos ayudarán a conocer sobre las rut
 - ¿Cuánto tiempo suele tomar de su día para realizar estas actividades de cuidado?
 - ¿Hay algún costo asociado con estas actividades de cuidado?
 - Si pudiera realizar mediciones sobre el entorno de sus plantas, ¿qué le gustaría medir?
-  - Por ejemplo: temperatura, humedad del suelo, Ph de la tierra, o alguno otro que usted conozca.
+  - Por ejemplo: temperatura, humedad del suelo, pH de la tierra, o alguno otro que usted conozca.
 - ¿Qué dificultades presenta, si las hubiera, para mantener sus plantas saludables?
 
 #### Registro de entrevistas
