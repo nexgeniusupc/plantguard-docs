@@ -1,5 +1,10 @@
 /* Any styles you write here will be included in the rendered document */
 
+table {
+  width: 100%;
+  font-size: 12px;
+}
+
 .team-member-container {
   display: flex;
 }
