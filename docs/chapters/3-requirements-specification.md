@@ -28,6 +28,8 @@ A continuación, mostramos las historias de usuario que hemos considerado para e
 
 ### Impact Mapping
 
+![Impact Mapping](../static/impact-mapping.png)
+
 ### Product Backlog
 
 En esta sección se incluirán los User Stories con su respectiva estimación y priorización.
