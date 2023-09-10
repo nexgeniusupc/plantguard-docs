@@ -89,6 +89,16 @@ Algunas posibles restricciones o limitaciones que podrían aplicarse a esta plat
 
 #### Architectural Drivers Backlog
 
+En esta sección, se presenta el conjunto de Architectural Drivers que ha sido acordado por el equipo. Estos drivers han resultado de un proceso iterativo llevado a cabo durante el Quality Attribute Workshop. El Architectural Drivers Backlog abarca tanto los Functional Drivers seleccionados como los Quality Attribute Drivers seleccionados, además de todas las Constraints identificadas. La sección comienza con una breve introducción que resume el proceso que el equipo ha seguido para llegar a esta versión del backlog. A continuación, se presenta el Architectural Drivers Backlog, donde se enumeran todos los drivers. Se priorizan primero aquellos que poseen una alta importancia para los Stakeholders y un alto impacto en la Complexity Técnica de la Arquitectura.
+
+| Driver ID  | Título del Driver           | Descripción                                                                                                                         | Importancia para Stakeholders	| Impacto en Architecture Technical Complexity  |
+| ---------- | --------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ | --------------------------------------------- |
+| 1          | Seguridad de Datos	         | Garantizar la seguridad de los datos de los usuarios mediante cifrado y autenticación robustos.	                                   | High                           | High                                          |
+| 2          | Escalabilidad               | Asegurar que la aplicación pueda manejar un aumento significativo en la carga de trabajo a medida que crece el número de usuarios.	 | High                           | Medium                                        |
+| 3          | Usabilidad de la Interfaz	 | Mejorar la usabilidad de la interfaz de usuario para que sea intuitiva y fácil de usar.	                                           | Medium                         | Low                                           |
+| 4          | Tiempo de Respuesta	       | Optimizar el tiempo de respuesta de la aplicación para garantizar una experiencia de usuario fluida.	                               | High                           | High                                          |
+| 5          | Disponibilidad Continua	   | Mantener una alta disponibilidad del sistema, minimizando el tiempo de inactividad no planificado.	                                 | High                           | High                                          |
+
 #### Architectural Design Decisions
 
 #### Quality Attribute Scenario Refinements
