@@ -101,6 +101,30 @@ En esta sección, se presenta el conjunto de Architectural Drivers que ha sido a
 
 #### Architectural Design Decisions
 
+En esta sección, se detallan las decisiones de diseño arquitectónico que surgieron del proceso iterativo del Quality Attribute Workshop. Cada iteración se enfocó en Drivers específicos, considerando tácticas y patrones de diseño para abordar los requerimientos de calidad identificados.
+
+| Driver ID | Título de Driver          | Patterns                          | Pro                                                      | Con                                                 |
+| --------- | ------------------------- | --------------------------------- | -------------------------------------------------------- | --------------------------------------------------- |
+| 1         | Seguridad de Datos        | Cifrado Robusto                   | Proporciona un alto nivel de seguridad                   | Aumenta la complejidad técnica                      |
+|           |                           | Autenticación de Dos Factores     | Refuerza la autenticación de usuarios                    | Introduce una experiencia adicional para el usuario |
+|           |                           | Control de Acceso Basado en Roles | Ofrece control granular sobre el acceso a los datos      | Requiere una gestión más compleja de roles          |
+| --------- | ------------------------- | --------------------------------- | -------------------------------------------------------- | --------------------------------------------------- |
+| 2         | Escalabilidad             | Escalabilidad Horizontal          | Permite agregar recursos fácilmente                      | Requiere gestión de clústeres                       |
+|           |                           | Escalabilidad Vertical            | Escala recursos en una sola instancia                    | Limitado en escalabilidad                           |
+|           |                           | Escalabilidad de Microservicios   | Facilita la escalabilidad independiente                  | Introduce complejidad de gestión                    |
+| --------- | ------------------------- | --------------------------------- | -------------------------------------------------------- | --------------------------------------------------- |
+| 3         | Usabilidad de la Interfaz | Diseño Centrado en el Usuario     | Enfoque en las necesidades del usuario                   | APuede requerir investigación de usuarios           |
+|           |                           | Interfaz Minimalista              | Simplifica la navegación                                 | Puede limitar la información visible                |
+|           |                           | Retroalimentación en Tiempo Real  | Información instantánea para el usuario                  | Requiere actualizaciones constantes                 |
+| --------- | ------------------------- | --------------------------------- | -------------------------------------------------------- | --------------------------------------------------- |
+| 4         | Tiempo de Respuesta       | Caché de Datos                    | Acelera el acceso a datos frecuentemente utilizados      | Requiere gestión de caché                           |
+|           |                           | Paralelización de Procesos        | Aumenta la eficiencia al procesar tareas simultáneamente | Puede requerir sincronización                       |
+|           |                           | Compresión de Datos               | Reduce el ancho de banda necesario                       | Puede aumentar la carga de CPU                      |
+| --------- | ------------------------- | --------------------------------- | -------------------------------------------------------- | --------------------------------------------------- |
+| 5         | Seguridad de Datos        | Redundancia de Servidores         | Asegura disponibilidad en caso falle el hardware         | Requiere inversión en hardware adicional            |
+|           |                           | Balanceo de Carga                 | Distribuye la carga para evitar sobrecarga en servidores | Puede requerir configuración constante              |
+|           |                           | Monitorización en Tiempo Real     | Permite la detección temprana de problemas               | Requiere recursos de monitoreo                      |
+
 #### Quality Attribute Scenario Refinements
 
 ### Strategic-Level Domain-Driven Design
