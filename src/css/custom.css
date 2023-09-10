@@ -5,6 +5,11 @@ table {
   font-size: 12px;
 }
 
+/* Reduce space taken by unordered list bullets in tables */
+table td ul {
+  padding-inline-start: 30px;
+}
+
 .team-member-container {
   display: flex;
 }
