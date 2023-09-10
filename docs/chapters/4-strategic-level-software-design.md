@@ -109,8 +109,22 @@ Algunas posibles restricciones o limitaciones que podrían aplicarse a esta plat
 
 #### Software Architecture System Landscape Diagram
 
+En este diagrama, exploramos las reglas de negocio en el más alto nivel, dando un vistazo a cómo impactan las diversas restricciones de nuestro modelo y su influencia en la toma de decisiones arquitectónicas a nivel de software.
+
+Se decidió utilizar Firebase Cloud Messaging (<https://firebase.google.com/docs/cloud-messaging/>) como sistema de notificaciones debido a la fácil integración de uso para el envío confiable de notificaciones.
+
+![System Landscape Diagram](../static/system-landscape-diagram.png)
+
 #### Software Architecture Context Level Diagrams
 
+Introduciéndonos al modelo C4, este primer diagrama de contexto nos ayuda a visualizar y entender cómo nuestro sistema interactúa con los principales agentes externos involucrados en el negocio, como por ejemplo los usuarios que vendrían a ser los jardineros así como sistema de terceros como Firebase Cloud Messaging.
+
+![System Context Diagram](../static/system-context-diagram.png)
+
 #### Software Architecture Container Level Diagrams
+
+Si nos adentramos un nivel más, este diagrama de contenedores nos da un vistazo acercado y enfocado a lo que contiene nuestra solución de software. Aquí es donde visualizamos por primera vez la aparición de nuestros bounded context y denotamos cómo interactúan entre sí.
+
+![System Container Diagram](../static/system-container-diagram.png)
 
 #### Software Architecture Deployment Diagrams
