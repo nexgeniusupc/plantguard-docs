@@ -127,6 +127,36 @@ En esta sección, se detallan las decisiones de diseño arquitectónico que surg
 
 #### Quality Attribute Scenario Refinements
 
+En esta sección, se detallan los escenarios refinados para los atributos de calidad priorizados. Comenzaremos con una introducción que resumirá las principales decisiones tomadas durante el Quality Attribute Workshop y luego presentaremos los escenarios refinados en orden de prioridad.
+
+| Scenario Refinement for Escenario 1: | Gestión de Usuarios                                                                                                  |
+| ------------------------------------ | -------------------------------------------------------------------------------------------------------------------- |
+| Escenario(s):                        | Registro de nuevos usuarios.                                                                                         |
+| Objetivos de Negocio:                | Aumentar la base de usuarios registrados en un 20%.                                                                  |
+| Atributos de Calidad Relevantes:     | Usabilidad, Rendimiento.                                                                                             |
+| Estímulo:                            | Un nuevo usuario completa el formulario de registro en la aplicación.                                                |
+| Fuente del Estímulo:                 | Usuario.                                                                                                             |
+| Entorno:                             | Aplicación web de registro de usuarios.                                                                              |
+| Artefacto:                           | Base de datos de usuarios.                                                                                           |
+| Respuesta:                           | El sistema procesa el formulario de registro y almacena la información en la base de datos.                          |
+| Medida de la Respuesta:              | El tiempo de registro promedio es de menos de 2 minutos.                                                             |
+| Preguntas:                           | ¿El formulario de registro es intuitivo para los usuarios? ¿La base de datos de usuarios se actualiza correctamente? |
+| Problemas:                           | Posible aumento en la carga del servidor durante picos de registro.                                                  |
+
+| Scenario Refinement for Escenario 2: | Acceso a Datos Críticos                                                                                                    |
+| ------------------------------------ | -------------------------------------------------------------------------------------------------------------------------- |
+| Escenario(s):                        | Consulta de información crítica en la base de datos.                                                                       |
+| Objetivos de Negocio:                | Garantizar un acceso rápido y preciso a datos críticos para la toma de decisiones.                                         |
+| Atributos de Calidad Relevantes:     | Rendimiento, Seguridad.                                                                                                    |
+| Estímulo:                            | Un usuario autorizado solicita una consulta a la base de datos de información crítica.                                     |
+| Fuente del Estímulo:                 | Usuario autorizado.                                                                                                        |
+| Entorno:                             | Aplicación de informes en línea.                                                                                           |
+| Artefacto:                           | Base de datos de información crítica.                                                                                      |
+| Respuesta:                           | El sistema ejecuta la consulta y muestra los resultados al usuario.                                                        |
+| Medida de la Respuesta:              | El tiempo de respuesta promedio es de menos de 1 segundo, y solo los usuarios autorizados pueden acceder a la información. |
+| Preguntas:                           | ¿El sistema mantiene la integridad de los datos críticos? ¿Se controla adecuadamente el acceso de los usuarios?            |
+| Problemas:                           | Posible sobrecarga del servidor durante consultas intensivas.                                                              |
+
 ### Strategic-Level Domain-Driven Design
 
 #### EventStorming
