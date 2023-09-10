@@ -43,8 +43,8 @@
     "lint:fix:html": "prettier -w \"**/*.(html|handlebars)\"",
     "lint:fix:json": "prettier -w \"**/*.json(c)?\"",
     "lint:fix:md": "concurrently -s -n lint:fix:md: \"yarn:lints:fix:md:*\"",
-    "lints:fix:md:cli": "markdownlint-cli2 \"**/*.md\"",
-    "lints:fix:md:prettier": "prettier -c \"**/*.md\"",
+    "lints:fix:md:cli": "markdownlint-cli2 --fix \"**/*.md\"",
+    "lints:fix:md:prettier": "prettier -w \"**/*.md\"",
     "lint:fix:yml": "prettier -w \"**/*.yml\""
   },
   "dependencies": {
