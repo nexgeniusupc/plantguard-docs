@@ -159,7 +159,7 @@ hidden {.table-separator}
 
 #### EventStorming
 
-El equipo colaboró efectivamente para explorar y definir las principales ideas que conforman el proceso de creación del EventStorming. Primero, nos organizamos para recapitular los principales procesos y eventos que ocurren en nuestro sistema, es así que fuimos realizando el procesos del event storming, conformado por los pasos indicados segun el libro "Learning Domain-Driven Design", los cuales son 10 y se indicaran a continuación:
+El equipo colaboró efectivamente para explorar y definir las principales ideas que conforman el proceso de creación del EventStorming. Primero, nos organizamos para recapitular los principales procesos y eventos que ocurren en nuestro sistema, es así que fuimos realizando el procesos del event storming, conformado por los pasos indicados por Khononov (2021) en el libro _Learning Domain-Driven Design_, los cuales son 10 y se indican a continuación:
 
 ##### Step 1: Unstructured Exploration
 
@@ -167,8 +167,8 @@ El equipo colaboró efectivamente para explorar y definir las principales ideas 
 
 ##### Step 2: Timelines
 
-![EventStorming Step 2](../static/eventstorming-step-2.jpg)
-![EventStorming Step 2](../static/eventstorming-step-2-2.jpg)
+![EventStorming Step 2.1](../static/eventstorming-step-2.jpg)
+![EventStorming Step 2.2](../static/eventstorming-step-2-2.jpg)
 
 ##### Step 3: Pain points
 
@@ -204,20 +204,19 @@ El equipo colaboró efectivamente para explorar y definir las principales ideas 
 
 #### Candidate Context Discovery
 
-En esta sección, identificamos mediante la técnica de start-with-value los contextos candidatos al profundo análisis de su funcionamiento. Esto debido a que representan la lógica principal o modelo de negocio. Ambos son lo suficientemente autoexplicativos según los eventos que los componen, además definen de manera precisa cada etapa del proceso que buscamos los usuarios sigan al usar nuestro sistema. Estos bounded context son los que conforman nuestro sistema.
+En esta sección, identificamos mediante la técnica de _start-with-value_ los contextos candidatos al profundo análisis de su funcionamiento. Esto debido a que representan la lógica principal o modelo de negocio. Ambos son lo suficientemente autoexplicativos según los eventos que los componen, además definen de manera precisa cada etapa del proceso que buscamos los usuarios sigan al usar nuestro sistema. Estos _bounded context_ son los que conforman nuestro sistema.
 
 ![Candidate Context Discovery](../static/candidate-context-discovery.jpg)
 
 #### Domain Message Flows Modeling
 
-En este apartado, evidenciamos el correcto flujo de procesos ocurridos durante el uso de nuestro sistema, la interconexiön e interacción entre los bounded contexts planteados y los elementos que los conforman para cumplir con el escenario ideal
-planteado:
+En este apartado, evidenciamos el correcto flujo de procesos ocurridos durante el uso de nuestro sistema, la interconexión e interacción entre los bounded contexts planteados y los elementos que los conforman para cumplir con el escenario ideal planteado:
 
 ![Domain Message Flows Modeling](../static/domain-message-flows-modeling.jpg)
 
 #### Bounded Context Canvases
 
-De igual manera que en las secciones previas, disefiamos los canvases de los dos bounded contexts más relevantes en nuestro sistema. En estos, describimos a profundidad el contenido establecido en el Event Storming.
+De igual manera que en las secciones previas, definimos los canvases de los dos _bounded contexts_ más relevantes en nuestro sistema. En estos, describimos a profundidad el contenido establecido en el Event Storming.
 
 ![Bounded Context Canvas 1](../static/bounded-context-canvas-1.jpg)
 
@@ -227,7 +226,7 @@ De igual manera que en las secciones previas, disefiamos los canvases de los dos
 
 ![Context Mapping](../static/context-mapping.jpg)
 
-Según la interacción entre nuestros bounded context definidos en el sistema que participan en conjunto, presentamos este diagrama de mapa de contexto bajo los siguientes fundamentos: proponemos un patron de colaboración entre el bounded context Users Managment y Payments Managements, con una relación **Upstream** por el lado de Users Managements y **Downstream** por el lado de Payments Managements. Debido a que el bounded context Payment Managements extraerá los datos del usuario e información del bounded context Users Managements, para obtener los datos de pago del usuario. Por otro lado se establece la misma relación entre Users Management y Plants Managements, ya que este ultimo bounded depende de la información que le proporcione el bounded inicial. Además, se establece una relacion de **Partners** entre los bounded Plants Managements y Plants Data Analysis, ya que ambos bounded context tienen dependencias entre sí para actualizar los datos constantemente. Y se evidencia una relación **Upstream** entre IoT Assets Managment con Plants Data Analysis, ya que esta depende de la información enviada por los sensores instalados en cada una de las plantas de nuestros usuarios "Gardeners"
+Según la interacción entre nuestros bounded context definidos en el sistema que participan en conjunto, presentamos este diagrama de mapa de contexto bajo los siguientes fundamentos: proponemos un patron de colaboración entre el _Users Bounded Context_ y el _Payments Bounded Context_, con una relación **upstream** por el lado de _Users_ y **downstream** por el lado de _Payments_. Esto debido a que el _Payment Bounded Context_ extraerá los datos del usuario e información del _Users Bounded Context_, para obtener los datos de pago del usuario. Por otro lado se establece la misma relación entre _Users_ y _Plant Management_, ya que este último depende de la información que le proporcione el _bounded context_ inicial. Además, se establece una relación de **partners** entre _Plant Management_ y _Plants Data Analysis_, ya que ambos _bounded context_ tienen dependencias entre sí para actualizar los datos constantemente. Finalmente, se evidencia una relación **upstream** entre _IoT Assets Management_ con _Plant Data Analysis_, ya que esta depende de la información enviada por los sensores instalados en cada una de las plantas de nuestros usuarios.
 
 ### Software Architecture
 
