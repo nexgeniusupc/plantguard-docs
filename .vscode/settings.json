@@ -13,6 +13,13 @@
   "editor.linkedEditing": true,
   "editor.suggest.preview": true,
   "editor.bracketPairColorization.enabled": true,
+  "markdown.validate.enabled": true,
+  "markdown.validate.fileLinks.enabled": "warning",
+  "markdown.validate.fragmentLinks.enabled": "warning",
+  "markdown.validate.fileLinks.markdownFragmentLinks": "inherit",
+  "markdown.validate.referenceLinks.enabled": "ignore",
+  "markdown.validate.duplicateLinkDefinitions.enabled": "ignore",
+  "markdown.validate.unusedLinkDefinitions.enabled": "ignore",
   "liveServer.settings.root": "/output",
   "liveServer.settings.mount": [
     ["/static", "./docs/static"],
