@@ -49,9 +49,11 @@ Se formularon las siguientes preguntas que nos ayudarán a conocer sobre las rut
 
 #### Análisis de entrevistas
 
-En esta sección se realizará el análisis de las entrevistas aplicadas a nuestro segmento objetivo. Se identificará con sustento estadístico tendencias y valores representativos de cada segmento y que son necesarios para la construcción de los arquetipos.
+<!-- TODO: Improve when we have more interviews -->
 
-<!-- TODO: Realizar análisis estadístico después de grabar más entrevistas -->
+En esta sección se realizará el análisis de las entrevistas aplicadas a nuestro segmento objetivo.
+
+En base a la información recopilada, obtuvimos que nuestros usuarios no suelen tener un control preciso sobre el regado de sus plantas. La mayoría son jardineros aficionados, por lo que no tienen estudios específicos en esta materia, solo realizan estas actividades como su pasión. A pesar de ello, si les gustaría tener un control del entorno de sus plantas, a través de mediciones que un sistema como PlantGuard podría proveer.
 
 ### Needfinding
 
