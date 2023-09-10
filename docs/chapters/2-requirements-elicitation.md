@@ -2,6 +2,8 @@
 
 #### Análisis competitivo
 
+Para el análisis competitivo, al no encontrar soluciones comerciales para jardineros, se encontró un trabajo previo realizado en Pakistán realizado por Absar et al. (2023). A continuación, se detallan las diferencias entre PlantGuard y el _paper_ encontrado.
+
 <!-- !include (../partials/analisis-competitivo-tabla.md) -->
 
 !include (../partials/analisis-competitivo-tabla.html)
