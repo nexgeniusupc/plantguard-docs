@@ -89,9 +89,71 @@ Algunas posibles restricciones o limitaciones que podrían aplicarse a esta plat
 
 #### Architectural Drivers Backlog
 
+En esta sección, se presenta el conjunto de Architectural Drivers que ha sido acordado por el equipo. Estos drivers han resultado de un proceso iterativo llevado a cabo durante el Quality Attribute Workshop. El Architectural Drivers Backlog abarca tanto los Functional Drivers seleccionados como los Quality Attribute Drivers seleccionados, además de todas las Constraints identificadas. La sección comienza con una breve introducción que resume el proceso que el equipo ha seguido para llegar a esta versión del backlog. A continuación, se presenta el Architectural Drivers Backlog, donde se enumeran todos los drivers. Se priorizan primero aquellos que poseen una alta importancia para los Stakeholders y un alto impacto en la Complexity Técnica de la Arquitectura.
+
+| Driver ID | Título del Driver         | Descripción                                                                                                                        | Importancia para Stakeholders | Impacto en Architecture Technical Complexity |
+| --------- | ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | ----------------------------- | -------------------------------------------- |
+| 1         | Seguridad de Datos        | Garantizar la seguridad de los datos de los usuarios mediante cifrado y autenticación robustos.                                    | High                          | High                                         |
+| 2         | Escalabilidad             | Asegurar que la aplicación pueda manejar un aumento significativo en la carga de trabajo a medida que crece el número de usuarios. | High                          | Medium                                       |
+| 3         | Usabilidad de la Interfaz | Mejorar la usabilidad de la interfaz de usuario para que sea intuitiva y fácil de usar.                                            | Medium                        | Low                                          |
+| 4         | Tiempo de Respuesta       | Optimizar el tiempo de respuesta de la aplicación para garantizar una experiencia de usuario fluida.                               | High                          | High                                         |
+| 5         | Disponibilidad Continua   | Mantener una alta disponibilidad del sistema, minimizando el tiempo de inactividad no planificado.                                 | High                          | High                                         |
+
 #### Architectural Design Decisions
 
+En esta sección, se detallan las decisiones de diseño arquitectónico que surgieron del proceso iterativo del Quality Attribute Workshop. Cada iteración se enfocó en Drivers específicos, considerando tácticas y patrones de diseño para abordar los requerimientos de calidad identificados.
+
+| Driver ID | Título de Driver          | Patterns                          | Pro                                                      | Con                                                 |
+| --------- | ------------------------- | --------------------------------- | -------------------------------------------------------- | --------------------------------------------------- |
+| 1         | Seguridad de Datos        | Cifrado Robusto                   | Proporciona un alto nivel de seguridad                   | Aumenta la complejidad técnica                      |
+| ^^        | ^^                        | Autenticación de Dos Factores     | Refuerza la autenticación de usuarios                    | Introduce una experiencia adicional para el usuario |
+| ^^        | ^^                        | Control de Acceso Basado en Roles | Ofrece control granular sobre el acceso a los datos      | Requiere una gestión más compleja de roles          |
+| 2         | Escalabilidad             | Escalabilidad Horizontal          | Permite agregar recursos fácilmente                      | Requiere gestión de clústeres                       |
+| ^^        | ^^                        | Escalabilidad Vertical            | Escala recursos en una sola instancia                    | Limitado en escalabilidad                           |
+| ^^        | ^^                        | Escalabilidad de Microservicios   | Facilita la escalabilidad independiente                  | Introduce complejidad de gestión                    |
+| 3         | Usabilidad de la Interfaz | Diseño Centrado en el Usuario     | Enfoque en las necesidades del usuario                   | APuede requerir investigación de usuarios           |
+| ^^        | ^^                        | Interfaz Minimalista              | Simplifica la navegación                                 | Puede limitar la información visible                |
+| ^^        | ^^                        | Retroalimentación en Tiempo Real  | Información instantánea para el usuario                  | Requiere actualizaciones constantes                 |
+| 4         | Tiempo de Respuesta       | Caché de Datos                    | Acelera el acceso a datos frecuentemente utilizados      | Requiere gestión de caché                           |
+| ^^        | ^^                        | Paralelización de Procesos        | Aumenta la eficiencia al procesar tareas simultáneamente | Puede requerir sincronización                       |
+| ^^        | ^^                        | Compresión de Datos               | Reduce el ancho de banda necesario                       | Puede aumentar la carga de CPU                      |
+| 5         | Seguridad de Datos        | Redundancia de Servidores         | Asegura disponibilidad en caso falle el hardware         | Requiere inversión en hardware adicional            |
+| ^^        | ^^                        | Balanceo de Carga                 | Distribuye la carga para evitar sobrecarga en servidores | Puede requerir configuración constante              |
+| ^^        | ^^                        | Monitorización en Tiempo Real     | Permite la detección temprana de problemas               | Requiere recursos de monitoreo                      |
+
 #### Quality Attribute Scenario Refinements
+
+En esta sección, se detallan los escenarios refinados para los atributos de calidad priorizados. Comenzaremos con una introducción que resumirá las principales decisiones tomadas durante el Quality Attribute Workshop y luego presentaremos los escenarios refinados en orden de prioridad.
+
+| Scenario Refinement for Scenario 1 | Gestión de Usuarios                                                                                                  |
+| ---------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| Escenario(s)                       | Registro de nuevos usuarios.                                                                                         |
+| Objetivos de Negocio               | Aumentar la base de usuarios registrados en un 20%.                                                                  |
+| Atributos de Calidad Relevantes    | Usabilidad, Rendimiento.                                                                                             |
+| Estímulo                           | Un nuevo usuario completa el formulario de registro en la aplicación.                                                |
+| Fuente del Estímulo                | Usuario.                                                                                                             |
+| Entorno                            | Aplicación web de registro de usuarios.                                                                              |
+| Artefacto                          | Base de datos de usuarios.                                                                                           |
+| Respuesta                          | El sistema procesa el formulario de registro y almacena la información en la base de datos.                          |
+| Medida de la Respuesta             | El tiempo de registro promedio es de menos de 2 minutos.                                                             |
+| Preguntas                          | ¿El formulario de registro es intuitivo para los usuarios? ¿La base de datos de usuarios se actualiza correctamente? |
+| Problemas                          | Posible aumento en la carga del servidor durante picos de registro.                                                  |
+
+hidden {.table-separator}
+
+| Scenario Refinement for Scenario 2 | Acceso a Datos Críticos                                                                                                    |
+| ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| Escenario(s)                       | Consulta de información crítica en la base de datos.                                                                       |
+| Objetivos de Negocio               | Garantizar un acceso rápido y preciso a datos críticos para la toma de decisiones.                                         |
+| Atributos de Calidad Relevantes    | Rendimiento, Seguridad.                                                                                                    |
+| Estímulo                           | Un usuario autorizado solicita una consulta a la base de datos de información crítica.                                     |
+| Fuente del Estímulo                | Usuario autorizado.                                                                                                        |
+| Entorno                            | Aplicación de informes en línea.                                                                                           |
+| Artefacto                          | Base de datos de información crítica.                                                                                      |
+| Respuesta                          | El sistema ejecuta la consulta y muestra los resultados al usuario.                                                        |
+| Medida de la Respuesta             | El tiempo de respuesta promedio es de menos de 1 segundo, y solo los usuarios autorizados pueden acceder a la información. |
+| Preguntas                          | ¿El sistema mantiene la integridad de los datos críticos? ¿Se controla adecuadamente el acceso de los usuarios?            |
+| Problemas                          | Posible sobrecarga del servidor durante consultas intensivas.                                                              |
 
 ### Strategic-Level Domain-Driven Design
 
