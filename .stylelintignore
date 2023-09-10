@@ -3,3 +3,4 @@ output/
 docs/
 .yarn
 src/**/*.ts
+*.excalidraw.svg

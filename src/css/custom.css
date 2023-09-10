@@ -23,3 +23,7 @@ table td ul {
   width: 100%;
   aspect-ratio: 1 / 1;
 }
+
+.table-separator {
+  display: none;
+}
