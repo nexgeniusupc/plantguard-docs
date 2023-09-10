@@ -236,18 +236,22 @@ En este diagrama, exploramos las reglas de negocio en el más alto nivel, dando 
 
 Se decidió utilizar Firebase Cloud Messaging (<https://firebase.google.com/docs/cloud-messaging/>) como sistema de notificaciones debido a la fácil integración de uso para el envío confiable de notificaciones.
 
-![System Landscape Diagram](../static/system-landscape-diagram.png)
+![System Landscape Diagram](../static/system-landscape-diagram.excalidraw.svg)
 
 #### Software Architecture Context Level Diagrams
 
 Introduciéndonos al modelo C4, este primer diagrama de contexto nos ayuda a visualizar y entender cómo nuestro sistema interactúa con los principales agentes externos involucrados en el negocio, como por ejemplo los usuarios que vendrían a ser los jardineros así como sistema de terceros como Firebase Cloud Messaging.
 
-![System Context Diagram](../static/system-context-diagram.png)
+![System Context Diagram](../static/system-context-diagram.excalidraw.svg)
 
 #### Software Architecture Container Level Diagrams
 
 Si nos adentramos un nivel más, este diagrama de contenedores nos da un vistazo acercado y enfocado a lo que contiene nuestra solución de software. Aquí es donde visualizamos por primera vez la aparición de nuestros bounded context y denotamos cómo interactúan entre sí.
 
-![System Container Diagram](../static/system-container-diagram.png)
+![System Container Diagram](../static/system-container-diagram.excalidraw.svg)
 
 #### Software Architecture Deployment Diagrams
+
+Este diagrama nos muestra y ayuda a entender la ejecución de arquitectura del sistema y conocer qué entornos de ejecución usaremos, tomando en cuenta las tecnologías a la vanguardia hoy por hoy y las mejores decisiones arquitectónicas respecto a la solución.
+
+![System Deployment Diagram](../static/system-deployment-diagram.excalidraw.svg)
