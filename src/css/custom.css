@@ -27,3 +27,8 @@ table td ul {
 .table-separator {
   display: none;
 }
+
+.references p {
+  padding-left: 2rem;
+  text-indent: -2rem;
+}
