@@ -27,3 +27,19 @@ table td ul {
 .table-separator {
   display: none;
 }
+
+.references p {
+  padding-left: 2rem;
+  text-indent: -2rem;
+}
+
+.cover-title {
+  text-align: center;
+  font-weight: bold;
+}
+
+.cover-semester {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 3rem;
+}

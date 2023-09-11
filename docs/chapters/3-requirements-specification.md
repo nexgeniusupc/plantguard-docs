@@ -10,9 +10,9 @@ A continuación, mostramos las historias de usuario que hemos considerado para e
 
 | Epic ID |           Título           | Descripción                                                                                                                                                                                                                        | US Asociados |
 | :-----: | :------------------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------: |
-|  EP01   |   Recopilación de datos    | Como usuario, quiero que se recopile diferentes métricas de mis plantas para tener visibilidad en su cuidado.                                                                                                                      |      0       |
-|  EP02   | Recomendaciones de cuidado | Como usuario, quiero recibir recomendaciones en base a los datos recopilados y mis patrones de cuidado para mejorar la calidad de vida de mis plantas.                                                                             |      0       |
-|  EP03   | Sincronización en la nube  | Como usuario, quiero poder acceder a los datos recopilados desde cualquier parte del mundo solo con una conexión a internet para poder verificar que mis plantas están recibiendo cuidados adecuados mientras estoy fuera de casa. |      0       |
+|  EP01   |   Recopilación de datos    | Como usuario, quiero que se recopile diferentes métricas de mis plantas para tener visibilidad en su cuidado.                                                                                                                      |      5       |
+|  EP02   | Recomendaciones de cuidado | Como usuario, quiero recibir recomendaciones en base a los datos recopilados y mis patrones de cuidado para mejorar la calidad de vida de mis plantas.                                                                             |      6       |
+|  EP03   | Sincronización en la nube  | Como usuario, quiero poder acceder a los datos recopilados desde cualquier parte del mundo solo con una conexión a internet para poder verificar que mis plantas están recibiendo cuidados adecuados mientras estoy fuera de casa. |      4       |
 
 #### User Stories
 
