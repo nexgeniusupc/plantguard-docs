@@ -22,9 +22,9 @@ Nuestra startup se basa en el desarrollo de un dispositivo de hardware IoT, el c
 
 Analizamos la problemática mediante la técnica de las 5W (_Who, What, Where, Why, When_), y las 2H (_How, How Much_):
 
-- **WHO**: A las personas cuidadoras de plantas que se preocupan por el bienestar y calidad de vida de sus jardines y cultivos.
+- **WHO**: A los jardineros aficionados que se preocupan por el bienestar y calidad de vida de sus jardines y cultivos.
 - **WHAT**: Los usuarios quieren un control y monitoreo del bienestar de sus plantas, manteniendo un balance entre su vida laboral/personal sin sacrificar el cuidado de sus plantas al tener estar pendientes de estas por mucho tiempo.
-- **WHERE**: En casa de los usuarios cuidadores de plantas.
+- **WHERE**: En casa de los usuarios jardineros.
 - **WHY**: En la actualidad, los usuarios no siempre tienen un control correcto del bienestar de sus plantas, debido a las tareas del día a día que deben realizar que le impiden centrar su atención 100% al cuidado de estas plantas.
 - **WHEN**: Se observa cuando las personas están realizando otras labores del día a día y se olvidan del cuidado de sus plantas.
 - **HOW**: El problema se presenta mediante plantas dañadas o poco cuidadas en los jardines de los usuarios.
@@ -76,4 +76,4 @@ Se puede acceder al Canvas también a través del siguiente enlace: <https://app
 
 #### Segmentos objetivo
 
-Nuestro segmento objetivo consiste principalmente en los cuidadores de plantas artesanales, que en su propia casa quieren tener un control y monitoreo correcto de sus plantas, manteniendo su bienestar y calidad de vida de estas.
+Nuestro segmento objetivo consiste principalmente en los jardineros aficionados, que en su propia casa quieren tener un control y monitoreo correcto de sus plantas, manteniendo su bienestar y calidad de vida de estas.

@@ -18,7 +18,7 @@ De tal manera, nos enfocamos en resaltar tanto la aplicación como nuestra marca
 
 #### Diseño de entrevistas
 
-Se formularon las siguientes preguntas que nos ayudarán a conocer sobre las rutinas, metodologías y actividades de los usuarios propuestos para las entrevistas. A continuación, se muestran las preguntas que se realizar a nuestros entrevistados, quienes serían cuidadores de plantas en casa.
+Se formularon las siguientes preguntas que nos ayudarán a conocer sobre las rutinas, metodologías y actividades de los usuarios propuestos para las entrevistas. A continuación, se muestran las preguntas que se realizar a nuestros entrevistados, quienes serían jardineros aficionados.
 
 - ¿Cuántas plantas aproximadamente cuidas actualmente? Puedes incluir plantas que tengas en casa como en otros lugares pero que usted sea responsable de su bienestar.
 - ¿Qué tipos de plantas tiene actualmente?
@@ -43,7 +43,7 @@ Se formularon las siguientes preguntas que nos ayudarán a conocer sobre las rut
 - Nombre: Rosa Panduro
 - Edad: 67 años
 - Residencia: Chile
-- Segmento Objetivo: Cuidadores de plantas
+- Segmento Objetivo: Jardinero aficionado
 - Enlace de entrevista: <https://youtu.be/jPeZ02z1d5Y>.
 - Resumen: Rosa nos comenta que actualmente ella cuida de aproximadamente 300 plantas, dividas entre su casa en Chile y su residencia en Perú, entre las cuales tenemos tipos como vegetales y plantas ornamentales. Ella suele regar sus plantas, dependiendo de la estación, en verano cada 2 o 3 días pero en invierno cada 15 días. Ella no ha investigado previamente sobre el tema, pero tiene experiencia en ello desde pequeña por el huerto de su mamá y por los años que lleva aprendiendo por prueba y error. Ella no suele registrar cuando riega sus plantas, solo se guía según su memoria. Entre los cuidados especiales que le da a sus plantas, menciona que usa materiales orgánicos como un adicional, como cascaras de fruta. Finalmente, nos detalla que realizar estas actividades le suele tomar un día entero por el tamaño de su jardín.
 
