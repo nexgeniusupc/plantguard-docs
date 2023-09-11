@@ -78,7 +78,7 @@ Ciclo 2023-02
 
 {.page-break}
 
-## Capítulo V: Tactical-Level Software Design
+<!-- ## Capítulo V: Tactical-Level Software Design
 
 !include (chapters/5-tactical-level-software-design.md)
 
@@ -100,7 +100,7 @@ Ciclo 2023-02
 
 !include (conclusiones.md)
 
-{.page-break}
+{.page-break} -->
 
 ## Bibliografía
 
