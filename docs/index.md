@@ -55,7 +55,7 @@ lang: es
 
 {.page-break}
 
-<!-- ## Capítulo V: Tactical-Level Software Design
+## Capítulo V: Tactical-Level Software Design
 
 !include (chapters/5-tactical-level-software-design.md)
 
@@ -67,7 +67,7 @@ lang: es
 
 {.page-break}
 
-## Capítulo VII: Product Implementation, Validation & Deployment
+<!-- ## Capítulo VII: Product Implementation, Validation & Deployment
 
 !include (chapters/7-product-implementation.md)
 
