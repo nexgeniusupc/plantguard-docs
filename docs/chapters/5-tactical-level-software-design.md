@@ -23,16 +23,16 @@
 ##### Entities
 
 - `Payment`: Entidad que representa un pago realizado por un cliente (gardener). Puede incluir detalles como el monto, la fecha y el estado del pago.
-- `PaymentMethod`: Esta entidad representa los métodos de pago que los gardeners pueden utilizar, como tarjetas de crédito, PayPal, transferencias bancarias, etc
+- `PaymentMethod`: Esta entidad representa los métodos de pago que los gardeners pueden utilizar, como tarjetas de crédito, PayPal, transferencias bancarias, etc.
 - `TransactionFee`: Esta entidad registra las comisiones o tarifas aplicadas a las transacciones de pago. Puede incluir detalles sobre la cantidad de la comisión, la fecha y el tipo de transacción.
-- `PaymentHistory`: sta entidad representa el historial de pagos de un Gardener. Lleva un registro de todas las transacciones de pago realizadas por el Gardener a lo largo del tiempo.
+- `PaymentHistory`: Esta entidad representa el historial de pagos de un Gardener. Lleva un registro de todas las transacciones de pago realizadas por el Gardener a lo largo del tiempo.
 
 ##### Métodos
 
 - `processPayment()`: Este método se utiliza para procesar un pago realizado por un cliente. Puede involucrar la validación del pago, la actualización del estado y la generación de registros de historial.
 - `cancelPayment(paymentId)`: Permite a un cliente (gardener) cancelar un pago si la transacción aún no se ha completado.
 - `getPaymentDetails()`: Obtiene los detalles completos de un pago, incluyendo el monto, la fecha y el estado actual.
-- `addPaymentMethod()`: Permite a un Gardener agregar un nuevo método de pago a su perfil
+- `addPaymentMethod()`: Permite a un Gardener agregar un nuevo método de pago a su perfil.
 - `removePaymentMethod()`: Permite a un Gardener eliminar un método de pago de su perfil.
 - `getAvailablePaymentMethods()`: Obtiene una lista de los métodos de pago disponibles para un Gardener.
 - `calculateTransactionFee()`: Calcula la comisión aplicada a una transacción de pago basada en el monto de pago proporcionado.
@@ -42,15 +42,15 @@
 ##### Value Objects
 
 - `PaymentStatus`: Un objeto de valor que representa el estado de un pago, como "pendiente", "completado", "rechazado", etc.
-- `PaymentDetails`: Contiene detalles específicos de un pago, como el monto, la moneda, la fecha y la descripción del pago
+- `PaymentDetails`: Contiene detalles específicos de un pago, como el monto, la moneda, la fecha y la descripción del pago.
 - `TransactionReference`: Se usa para rastrear y vincular una transacción de pago con información adicional, como un número de referencia único.
 - `Money`: Se utiliza para representar una cantidad de dinero. Puede incluir el monto y la moneda, lo que facilita el manejo de diferentes monedas.
 
 ##### Factories
 
-- `PaymentFactory`: Se encarga de crear instancias de la entidad Payment (Pago).Encapsula la lógica de creación de pagos y garantiza que los pagos se creen de manera consistente con los detalles necesarios, como el monto, la fecha y el estado del pago.
+- `PaymentFactory`: Se encarga de crear instancias de la entidad Payment (Pago). Encapsula la lógica de creación de pagos y garantiza que los pagos se creen de manera consistente con los detalles necesarios, como el monto, la fecha y el estado del pago.
 - `PaymentMethodFactory`: Se encarga de crear instancias de la entidad PaymentMethod. Gestiona la creación de métodos de pago, lo que puede incluir la configuración de métodos de pago como tarjetas de crédito, PayPal, transferencias bancarias, etc.
-- `TransactionFeeFactory`: Se encarga de crear instancias de la entidad TransactionFee. Facilita la creación de comisiones de transacción que pueden aplicarse a las transacciones de pago
+- `TransactionFeeFactory`: Se encarga de crear instancias de la entidad TransactionFee. Facilita la creación de comisiones de transacción que pueden aplicarse a las transacciones de pago.
 - `PaymentHistoryFactory`: Se encarga de crear instancias de la entidad PaymentHistory. Gestiona la creación de historiales de pagos individuales para cada Gardener, lo que permite llevar un registro completo de todas las transacciones de pago a lo largo del tiempo.
 
 ##### Services
@@ -61,7 +61,7 @@
 
 #### Interface Layer
 
-La capa de interfaz en el contexto acotado _Bounded Context Payment Management_ juega un papel fundamental al proporcionar puntos de entrada y mecanismos de interacción entre este contexto y otras partes del sistema. Esta capa se encarga de manejar las solicitudes y las respuestas, permitiendo que diferentes aplicaciones y módulos se comuniquen de manera efectiva con el dominio específico de este contexto. A continuación, se detalla cómo se lleva a cabo esta interacción:
+La capa de interfaz en el contexto acotado _Bounded Context Payment Management_ juega un papel fundamental al proporcionar puntos de entrada y mecanismos de interacción entre este contexto y otras partes del sistema. Esta capa se encarga de manejar las solicitudes y las respuestas, permitiendo que diferentes aplicaciones y módulos se comuniquen de manera efectiva con el dominio específico de este contexto. A continuación, se detalla cómo se lleva a cabo esta interacción.
 
 ##### API REST
 
@@ -112,7 +112,7 @@ Cloudflare KV: En lugar de utilizar bases de datos tradicionales, el sistema uti
 En la capa de infraestructura, se implementan los siguientes repositorios para interactuar con Cloudflare KV:
 
 - `PaymentsRepository`: Se encarga de gestionar la información de los pagos almacenados en Cloudflare KV. Permite la lectura y escritura de datos relacionados con cada pago, como detalles de la transacción, monto y estado del pago.
-- `PaymentMethodsRepository`: Administra la información de los métodos de pago almacenados en Cloudflare KV. Facilita la gestión de métodos de pago, incluyendo la adición, actualización y eliminación de métodos de pago asociados a cada Gardener
+- `PaymentMethodsRepository`: Administra la información de los métodos de pago almacenados en Cloudflare KV. Facilita la gestión de métodos de pago, incluyendo la adición, actualización y eliminación de métodos de pago asociados a cada Gardener.
 - `TransactionFeesRepository`: Este repositorio se encarga de almacenar y recuperar datos relacionados con las comisiones y tarifas aplicadas a las transacciones de pago. Permite consultar información sobre las tarifas y sus características.
 - `PaymentHistoryRepository`: Gestiona el historial de pagos almacenado en Cloudflare KV, registrando eventos de transacciones de pago. Proporciona acceso a la información de historial de pagos para la generación de informes y consultas de transacciones pasadas.
 
