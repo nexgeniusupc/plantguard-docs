@@ -16,7 +16,7 @@
 
 ##### Bounded Context Database Design Diagram
 
-### Bounded Context: **Bounded Context Payment Management**
+### Bounded Context: Payment Management
 
 #### Domain Layer
 
