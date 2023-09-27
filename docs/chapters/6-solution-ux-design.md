@@ -20,13 +20,11 @@ En esta sección, el equipo sienta las bases para contar con un repositorio cent
 
 La paleta de colores se eligió cuidadosamente para transmitir la esencia de la aplicación.
 
-- El verde se utiliza para los botones de acción, ya que es un color asociado con el crecimiento y la naturaleza.
-- El azul se aplica a elementos de navegación para transmitir confiabilidad.
-- El naranja se usa para notificaciones y acentos, agregando un toque de vitalidad.
+- El verde normal y oscuro se utiliza para los botones y mayoría de controles, ya que es un color asociado con el crecimiento y la naturaleza.
+- El blanco y negro se aplica a elementos base de la aplicación.
+- El verde muy claro se usa como color secundario junto a las otras tonalidades de verdes para crear contraste y que se de un toque de vitalidad.
 
-  ![Green Color](../static/green-hex-color.png)
-  ![Blue Color](../static/blue-hex-color.png)
-  ![Orange Color](../static/orange-hex-color.png)
+  ![Color Palette](../static/style-guidelines.png)
 
 **Spacing:**
 
