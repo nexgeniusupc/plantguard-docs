@@ -23,7 +23,7 @@ La paleta de colores se eligió cuidadosamente para transmitir la esencia de la 
 - El verde muy claro se usa como color secundario junto a las otras tonalidades de verdes para crear contraste y que se de un toque de vitalidad.
 - Las tonalidades de grises azulados permiten transmitir, así como el color azul, confianza y seguridad a nuestros usuarios.
 
-![Paleta de colores de PlantGuard](../static/style-guidelines.png)
+![Paleta de colores de PlantGuard](../static/color-palette.png)
 
 ##### Spacing
 
