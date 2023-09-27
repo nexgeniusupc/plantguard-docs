@@ -105,7 +105,7 @@ En el contexto del proyecto _Bounded Context Payment Management_, la capa de inf
 
 ##### Almacenamiento de datos en Cloudflare KV
 
-Cloudflare KV: En lugar de utilizar bases de datos tradicionales, el sistema utiliza Cloudflare KV para almacenar y gestionar los datos de las plantas recopilados de los sensores. Cloudflare KV ofrece un almacenamiento de clave-valor altamente escalable y distribuido que es adecuado para la gestión de datos de sensores en tiempo real. Cada planta tiene su propio conjunto de datos asociado, lo que facilita la recuperación y actualización de información específica de la planta.
+Cloudflare KV: En lugar de utilizar bases de datos tradicionales, el sistema utiliza Cloudflare KV para almacenar y gestionar los datos de los pagos generados por los usuarios. Cloudflare KV ofrece un almacenamiento de clave-valor altamente escalable y distribuido que es adecuado para la gestión de datos de sensores en tiempo real. Cada planta tiene su propio conjunto de datos asociado, lo que facilita la recuperación y actualización de información específica de la planta.
 
 ###### Repositorios para Cloudflare KV
 
@@ -124,17 +124,17 @@ Cuando se utilizan pasarelas de pago externas, como PayPal, la capa de infraestr
 
 #### Bounded Context Software Architecture Component Level Diagrams
 
-![Data Analysis Component Level Diagram](../static/component-payment-management.png)
+![Payment Manager Component Level Diagram](../static/component-payment-management.png)
 
 #### Bounded Context Software Architecture Code Level Diagrams
 
-En esta sección, exploraremos la arquitectura a nivel de código de nuestro contexto acotado _Payment Management_. Primero, examinaremos los diagramas de clases, que nos proporcionarán una visión detallada de las clases y sus relaciones en nuestro microservice. Luego, veremos cómo se estructuran y almacenan los datos en nuestra base de datos basada en Cloudflare KV. Estos diagramas son esenciales para comprender la estructura y el flujo de datos en nuestro sistema de análisis de datos de plantas.
+En esta sección, exploraremos la arquitectura a nivel de código de nuestro contexto acotado _Payment Management_. Primero, examinaremos los diagramas de clases, que nos proporcionarán una visión detallada de las clases y sus relaciones en nuestro microservice. Luego, veremos cómo se estructuran y almacenan los datos en nuestra base de datos basada en Cloudflare KV. Estos diagramas son esenciales para comprender la estructura y el flujo de datos en nuestro sistema de procesamiento de pagos.
 
 ##### Bounded Context Domain Layer Class Diagrams
 
 El siguiente diagrama de clases detalla la estructura de datos y las relaciones en nuestro microservice _Payment Management_. Representa cómo nuestras clases interactúan para gestionar y concretar todo el proceso de los pagos en nuestro sistema.
 
-![Bounded Context Plant Data Analysis Class Diagram](../static/payment-management-class-diagram.png)
+![Bounded Context Payment Manager Class Diagram](../static/payment-management-class-diagram.png)
 
 ##### Bounded Context Database Design Diagram
 
