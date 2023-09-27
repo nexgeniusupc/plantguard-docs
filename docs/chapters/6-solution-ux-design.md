@@ -8,6 +8,8 @@
 
 Para los "Organization Systems", la jerarquía visual se utiliza para destacar la información más relevante. Los menús paso a paso facilitan la configuración de plantas, lo que simplifica la experiencia del usuario. La categorización por tipo de planta ayuda a los usuarios a encontrar rápidamente lo que buscan.
 
+![Tipografía](../static/information-architecture.png)
+
 #### Labeling Systems
 
 Las etiquetas se eligen cuidadosamente para representar de manera clara y concisa la información. El uso de etiquetas sencillas evita la confusión y ayuda a los usuarios a comprender fácilmente el contenido y las funciones de la aplicación.
@@ -21,6 +23,8 @@ La barra de búsqueda permite a los usuarios escribir el nombre de una planta o 
 Los resultados de búsqueda se presentan de manera clara y ordenada, con miniaturas de plantas acompañadas de sus nombres. Esta presentación visual facilita la identificación rápida de las plantas deseadas y mejora la experiencia de búsqueda del usuario.
 
 #### SEO Tags and Meta Tags
+
+![Tipografía](../static/seo-tags.png)
 
 **SEO Tags (Para el sitio web):**
 
