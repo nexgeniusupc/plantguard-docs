@@ -41,16 +41,16 @@
 
 #### Interface Layer
 
-La capa de interfaz en el contexto acotado _Bounded Context Plant Data Analysis_ juega un papel crucial al proporcionar puntos de entrada y mecanismos de interacción entre este contexto y otras partes del sistema. Esta capa se encarga de manejar las solicitudes y las respuestas, permitiendo que diferentes aplicaciones y módulos se comuniquen de manera efectiva con el dominio específico de este contexto. Aquí se detalla cómo se lleva a cabo esta interacción:
+La capa de interfaz en el contexto acotado _Bounded Context Plant Data Analysis_ juega un papel crucial al proporcionar puntos de entrada y mecanismos de interacción entre este contexto y otras partes del sistema. Esta capa se encarga de manejar las solicitudes y las respuestas, permitiendo que diferentes aplicaciones y módulos se comuniquen de manera efectiva con el dominio específico de este contexto. Aquí se detalla cómo se lleva a cabo esta interacción.
 
 ##### API REST
 
 Este contexto acotado ofrece una API REST que sirve como interfaz principal para interactuar con sus funcionalidades. A través de esta API, los clientes pueden realizar operaciones relacionadas con el análisis de datos de plantas, el seguimiento de sensores y el cuidado de las plantas. Algunos de los recursos y operaciones disponibles incluyen:
 
-- /plants: Permite la gestión de plantas, incluyendo la obtención de información detallada, actualizaciones y eliminación.
-- /plants/{plantId}/sensors: Proporciona acceso a los datos recopilados por los sensores, lo que permite la recuperación de lecturas y la realización de análisis.
-- /plants/{plantId}/watering: Ofrece información sobre el historial de riego de las plantas, incluyendo la adición de nuevos eventos de riego.
-- /plants/{plantId}/recommendations: Facilita la obtención de recomendaciones para el cuidado de las plantas y la consulta de recomendaciones específicas.
+- `/plants`: Permite la gestión de plantas, incluyendo la obtención de información detallada, actualizaciones y eliminación.
+- `/plants/{plantId}/sensors`: Proporciona acceso a los datos recopilados por los sensores, lo que permite la recuperación de lecturas y la realización de análisis.
+- `/plants/{plantId}/watering`: Ofrece información sobre el historial de riego de las plantas, incluyendo la adición de nuevos eventos de riego.
+- `/plants/{plantId}/recommendations`: Facilita la obtención de recomendaciones para el cuidado de las plantas y la consulta de recomendaciones específicas.
 
 ##### Interacciones con aplicaciones web y móviles
 
