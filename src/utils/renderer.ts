@@ -24,7 +24,7 @@ export class Renderer {
     })
       .use(ReplaceLinkPlugin, { replaceLink: options?.replaceLink })
       .use(AnchorPlugin, { slugify: options?.slugify })
-      .use(TocPlugin, { slugify: options?.slugify })
+      .use(TocPlugin, { slugify: options?.slugify, level: [1, 2, 3, 4] })
       .use(MultiMdTablePlugin, {
         multiline: true,
         rowspan: true,
