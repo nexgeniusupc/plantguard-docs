@@ -124,7 +124,7 @@ Cuando se utilizan pasarelas de pago externas, como PayPal, la capa de infraestr
 
 #### Bounded Context Software Architecture Component Level Diagrams
 
-![Payment Manager Component Level Diagram](../static/component-payment-management.png)
+![Payment Management Component Level Diagram](../static/payment-management-component-diagram.png)
 
 #### Bounded Context Software Architecture Code Level Diagrams
 
@@ -134,7 +134,7 @@ En esta sección, exploraremos la arquitectura a nivel de código de nuestro con
 
 El siguiente diagrama de clases detalla la estructura de datos y las relaciones en nuestro microservice _Payment Management_. Representa cómo nuestras clases interactúan para gestionar y concretar todo el proceso de los pagos en nuestro sistema.
 
-![Bounded Context Payment Manager Class Diagram](../static/payment-management-class-diagram.png)
+![Bounded Context Payment Management Class Diagram](../static/payment-management-class-diagram.png)
 
 ##### Bounded Context Database Design Diagram
 
