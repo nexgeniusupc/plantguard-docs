@@ -43,3 +43,11 @@ table td ul {
   font-weight: bold;
   margin-top: 3rem;
 }
+
+.logo-upc {
+  text-align: center;
+}
+
+.logo-upc > img {
+  width: 25%;
+}
