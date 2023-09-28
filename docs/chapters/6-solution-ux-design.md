@@ -133,8 +133,8 @@ También se puede apreciar un segundo posible flujo, en el que el usuario intera
 
 Figma: <https://www.figma.com/file/LgrDW4JS98uSHRniVhJ89h/PlantGuard-Wireflow-Diagrams?type=whiteboard&node-id=0%3A1&t=sCPQNgfzoH0TN0c9-1>.
 
-#### Application Mock-ups
+<!-- #### Application Mock-ups -->
 
-#### Application User Flow Diagrams
+<!-- #### Application User Flow Diagrams -->
 
-### Application Prototyping
+<!-- ### Application Prototyping -->
