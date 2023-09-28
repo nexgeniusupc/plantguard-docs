@@ -103,7 +103,7 @@ Estos repositorios abstraen la capa de aplicación de la complejidad del acceso 
 
 #### Bounded Context Software Architecture Component Level Diagrams
 
-![Plant Data Analysis Component Level Diagram](../static/component-bounded-data-analysis.png)
+![Plant Data Analysis Component Level Diagram](../static/plant-data-analysis-component-diagram.png)
 
 #### Bounded Context Software Architecture Code Level Diagrams
 
@@ -113,7 +113,7 @@ En esta sección, exploraremos la arquitectura a nivel de código de nuestro con
 
 El siguiente diagrama de clases detalla la estructura de datos y las relaciones en nuestro microservice _Plant Data Analysis_. Representa cómo nuestras clases interactúan para gestionar y analizar datos de plantas, lecturas de sensores y eventos de riego.
 
-![Bounded Context Plant Data Analysis Class Diagram](../static/class-diagram-data-analysis.png)
+![Bounded Context Plant Data Analysis Class Diagram](../static/plant-data-analysis-class-diagram.png)
 
 ##### Bounded Context Database Design Diagram
 
