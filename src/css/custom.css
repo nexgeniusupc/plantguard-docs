@@ -78,3 +78,7 @@ ul:empty {
 .logo-upc > img {
   width: 25%;
 }
+
+.img-w-75 img {
+  width: 75%;
+}

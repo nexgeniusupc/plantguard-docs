@@ -184,7 +184,7 @@ El equipo colaboró efectivamente para explorar y definir las principales ideas 
 
 ##### Step 6: Policies
 
-![EventStorming Step 6](../static/eventstorming-step-6.jpg)
+![EventStorming Step 6](../static/eventstorming-step-6.jpg) {.img-w-75}
 
 ##### Step 7: Read models
 
@@ -218,9 +218,9 @@ En este apartado, evidenciamos el correcto flujo de procesos ocurridos durante e
 
 De igual manera que en las secciones previas, definimos los canvases de los dos _bounded contexts_ más relevantes en nuestro sistema. En estos, describimos a profundidad el contenido establecido en el Event Storming.
 
-![Bounded Context Canvas 1](../static/bounded-context-canvas-1.jpg)
+![Bounded Context Canvas 1](../static/bounded-context-canvas-1.jpg) {.img-w-75}
 
-![Bounded Context Canvas 2](../static/bounded-context-canvas-2.jpg)
+![Bounded Context Canvas 2](../static/bounded-context-canvas-2.jpg) {.img-w-75}
 
 #### Context Mapping
 
