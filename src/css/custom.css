@@ -60,15 +60,30 @@ ul:empty {
   text-indent: -2rem;
 }
 
+.cover-page {
+  position: relative;
+  padding-bottom: 3rem;
+}
+
 .cover-title {
   text-align: center;
   font-weight: bold;
 }
 
 .cover-semester {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  margin-bottom: 0;
   text-align: center;
   font-weight: bold;
-  margin-top: 3rem;
+}
+
+@media print {
+  .cover-page {
+    min-height: calc(297mm - 2in);
+    padding-bottom: 0;
+  }
 }
 
 .logo-upc {

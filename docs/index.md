@@ -3,7 +3,7 @@ title: PlantGuard | Informe del Trabajo Final
 lang: es
 ---
 
-!include (cover.md)
+!include (cover.html)
 
 {.page-break}
 
