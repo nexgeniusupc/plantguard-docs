@@ -1,18 +1,20 @@
+![Logo UPC](static/logo-upc.png) {.logo-upc}
+
 Universidad Peruana de Ciencias Aplicadas {.cover-title}
 
 Ingeniería de Software {.cover-title}
 
 SI728 | Arquitecturas de Software Emergentes {.cover-title}
 
-Sección: WS82
+**Sección:** WS82
 
-Docente: Rojas Malasquez, Royer Edelwer
+**Docente:** Rojas Malasquez, Royer Edelwer
 
-Startup: NexGenius
+**Startup:** NexGenius
 
-Producto: PlantGuard
+**Producto:** PlantGuard
 
-Team Members:
+**Team Members:**
 
 - Albitres Blondet, Diego (U202015652)
 - Cayllahua Gutierrez, José Antonio (U202019558)

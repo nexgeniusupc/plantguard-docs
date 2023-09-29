@@ -10,6 +10,12 @@ table td ul {
   padding-inline-start: 30px;
 }
 
+/* Remove buttom margin from base CSS when lists are empty (useful for table of contents) */
+ol:empty,
+ul:empty {
+  margin-bottom: 0;
+}
+
 .team-member-container {
   display: flex;
 }
@@ -42,4 +48,12 @@ table td ul {
   text-align: center;
   font-weight: bold;
   margin-top: 3rem;
+}
+
+.logo-upc {
+  text-align: center;
+}
+
+.logo-upc > img {
+  width: 25%;
 }
