@@ -82,3 +82,15 @@ ul:empty {
 .img-w-75 img {
   width: 75%;
 }
+
+.student-outcomes-pre {
+  page-break-inside: avoid;
+}
+
+.student-outcomes-table {
+  page-break-before: avoid;
+}
+
+.student-outcomes-table * {
+  page-break-inside: auto;
+}
