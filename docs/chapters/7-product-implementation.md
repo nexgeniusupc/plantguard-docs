@@ -43,6 +43,8 @@ Para el despliegue del backend, hemos realizado una integración con GitHub Acti
 
 ##### Sprint Planning 1
 
+Para este primer sprint, decidimos sentar las bases de la aplicación, empezando por la autenticación y la vinculación de dispositivos IoT (en este caso simulados en Wokwi) con una cuenta. Esto servirá para, en siguientes sprints, implementar funcionalidades que dependan de los datos que el dispositivo IoT pueda recopilar.
+
 ##### Sprint Backlog 1
 
 ##### Development Evidence for Sprint Review
