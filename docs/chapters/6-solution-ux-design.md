@@ -148,4 +148,4 @@ En este primer diagrama, vemos el flujo correcto que seguiría un usuario que us
 
 ![User flow diagram](../static/user-flow-diagram.png)
 
-### Application Prototyping
+<!--### Application Prototyping-->
