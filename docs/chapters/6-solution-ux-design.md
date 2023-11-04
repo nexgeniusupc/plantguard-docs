@@ -133,8 +133,19 @@ También se puede apreciar un segundo posible flujo, en el que el usuario intera
 
 Figma: <https://www.figma.com/file/LgrDW4JS98uSHRniVhJ89h/PlantGuard-Wireflow-Diagrams?type=whiteboard&node-id=0%3A1&t=sCPQNgfzoH0TN0c9-1>.
 
-<!-- #### Application Mock-ups -->
+#### Application Mock-ups
 
-<!-- #### Application User Flow Diagrams -->
+Estos son nuestros diseños de media fidelidad para la interfaz de nuestra aplicación, la cual comprende las pantallas principales que el usuario navegará y visualizará al usarla.
 
-<!-- ### Application Prototyping -->
+![App Mock-ups - home](../static/home-screen-mock-up.png)
+![App Mock-ups - control ](../static/plant-control-mock-up.png)
+
+#### Application User Flow Diagrams
+
+En la presente sección, mostraremos los principales flujos de nuestra aplicación, conocidos también como happy paths. Estos evidencian el correcto uso del sistema a través del cumplimiento de una funcionalidad particular establecida.
+
+En este primer diagrama, vemos el flujo correcto que seguiría un usuario que usa la aplicación: empieza con la pantalla de inicio, donde puede ver todas las plantas que tiene registradas en el sistema según el area donde se encuentra. Una vez que encuentra la planta que desea ver más información, hace click en esta planta y se le lleva a una interfaz con todos los datos recopilados por el dispositivo IoT en tiempo real. En esta pantalla, el usuario puede ir a la sección de histórico y puede ver gráficas donde se le mostrará los rangos ideales para la planta registrada, así como los datos recopilados por el sistema. También podrá hacer click en un botón que mostrará una descripción de cada métrica, lo que le permitirá al usuario aprender la importancia de cada valor registrado.
+
+![User flow diagram](../static/user-flow-diagram.png)
+
+<!--### Application Prototyping-->
