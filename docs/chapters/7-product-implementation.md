@@ -70,7 +70,76 @@ Asimismo, en este repositorio se encuentra la evidencia de los principales commi
 
 ##### Execution Evidence for Sprint Review
 
+A continuación, mostramos algunas de las pantallas desarrolladas para esta entrega de la aplicación móvil.
+
+![Splash](../static/app-splash.png)
+![Login](../static/app-login.png)
+![Home](../static/app-home.png)
+![Add device](../static/app-add-device.png)
+![Confirm device](../static/app-confirm-device.png)
+![Plant details](../static/app-plant-details.png)
+
 ##### Services Documentation Evidence for Sprint Review
+
+Para el servicio de autenticación, se desarrollaron los siguientes endpoints:
+
+- `POST /api/v1/auth/register`: Permite el registro de usuarios
+  - `email`: string, debe ser email válido
+  - `password` : string, min: 8 caracteres, max: 72 caracteres
+  - `fullName`: string
+  - `preferredName`: string
+- `POST /api/v1/auth/login`: Retorna un token JWT firmado, valido por 30 días
+  - `email`: string, debe ser email válido
+  - `password` : string, min: 8 caracteres, max: 72 caracteres
+- `/api/v1/users/me`: Retorna un `User` para el token JWT actual.
+  - Requiere de la cabecera `Authorization` en el [formato Bearer](https://swagger.io/docs/specification/authentication/bearer-authentication/).
+
+Para el servicio de dispositivos, se implementaron los siguientes endpoints. Todos requieren de la cabecera `Authorization` en el [formato Bearer](https://swagger.io/docs/specification/authentication/bearer-authentication/).
+
+- `GET /api/v1/devices`: Lista todos los `Device`s registrados para el `User`. Acepta los siguientes parámetros query:
+  - `limit`: number, min: 1, max: 50, opcional
+  - `cursor` : string, opcional
+- `GET /api/v1/devices/:id`: Obtiene un `Device` por su ID. Tiene los siguientes parámetros de ruta:
+  - `id`: string, debe ser un UUID válido
+- `PATCH /api/v1/devices/:id`: Updates an existing `Device` for the current `User`
+  - Parámetros de ruta
+    - `id`: string, debe ser un UUID válido
+  - Respuesta en formato JSON
+    - `name`: string, min: 1 char, max: 50 caracteres, opcional
+- `DELETE /api/v1/devices/:id`: Elimina un `Device` por su ID. Tiene los siguientes parámetros de ruta:
+  - `id`: string, debe ser un UUID válido
+
+Para el servicio de pairing, se implemetaron los siguientes endpoints:
+
+- `POST /api/v1/pair/init`: Inicializa el proceso de pairing de un `Device`
+  - Body
+    - `serialNumber`: string, debe cumplir el RegExp: `/\d{4}-\d{4}-\d{2}/g`
+    - `expirationTtl` : number, max: 600, por defecto: 300
+  - Respuesta
+    - `code`: string, 6 dígitos, debe mostrarse en la pantalla del dispositivo IoT
+    - `secret`: string, 64 caracteres, debe utilizar el dispositivo IoT para autenticarse en el endpoint de `/api/v1/pair/check`
+- `GET /api/v1/pair/find`: Permite buscar por el código de pairing
+  - Cabeceras
+    - `Authorization` en el [formato Bearer](https://swagger.io/docs/specification/authentication/bearer-authentication/).
+  - Parámetros query
+    - `code`: string, 6 dígitos
+  - Respuesta
+    - `code`: string, 6 dígitos
+    - `serialNumber`: string, cumple el RegExp: `/\d{4}-\d{4}-\d{2}/g`
+- `POST /api/v1/pair/check`: Verifica si el `Device` ya ha sido autorizado por el `User`
+  - Body
+    - `code`: string, 6 dígitos
+    - `secret`: string, 64 caracteres
+  - Respuesta
+    - Si el `User` aun no ha autorizado `Device`, el servidor retorna `204 No content` con el cuerpo vacío.
+    - Si el `User` ya autorizó al `Device`, el servidor retorna
+      - `jwt`: string, el dispositivo IoT debe guardar este token para los siguientes pedidos
+- `POST /api/v1/pair/confirm`: Autoriza un `Device` en la cuenta del `User` actual
+  - Cabeceras
+    - `Authorization` en el [formato Bearer](https://swagger.io/docs/specification/authentication/bearer-authentication/).
+  - Respuesta
+    - `code`: string, 6 dígitos
+    - `name`: string, min: 1 carácter, max: 50 caracteres
 
 ##### Software Deployment Evidence for Sprint Review
 
