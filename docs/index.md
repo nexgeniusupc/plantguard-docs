@@ -67,7 +67,7 @@ lang: es
 
 {.page-break}
 
-<!-- ## Capítulo VII: Product Implementation, Validation & Deployment
+## Capítulo VII: Product Implementation, Validation & Deployment
 
 !include (chapters/7-product-implementation.md)
 
@@ -77,7 +77,7 @@ lang: es
 
 !include (conclusiones.md)
 
-{.page-break} -->
+{.page-break}
 
 ## Bibliografía
 
