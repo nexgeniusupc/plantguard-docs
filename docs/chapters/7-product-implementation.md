@@ -50,23 +50,38 @@ Para este primer sprint, decidimos sentar las bases de la aplicación, empezando
 | User Stories | User Stories | Work-Item / Task | Work-Item / Task | Work-Item / Task | Work-Item / Task | Work-Item / Task |
 | Id | Title | Id | Title | Description | Estimation | Status |
 | ------------ | ----------------------------------------- | -----------------| -----------------------------------------------------------------------------------------------| ----------------------------------------------------------------------------------------------- | ---------------- | ---------------- |
-| US01 | Recopilación de datos de temperatura | PG01 | Setup y utilización inicial para que la app móvil recopile los datos de la temperatura. | Realizar configuración y lógica preeliminar para la recopilación de los datos de temperatura. | 4 hours | Done |
-| US04 | Recomendaciones de falta de agua | PG02 | Setup y utilización inicial para que la app móvil haga recomendaciones sobre la falta de agua. | Realizar configuración y lógica preeliminar para las recomendaciones de falta de agua. | 4 hours | Done |
-| US10 | Consejos para la elección de plantas | PG03 | Setup y utilización inicial para que la app móvil de consejos sobre elecciones de plantas. | Realizar configuración y lógica preeliminar para los consejos de elección de plantas. | 4 hours | Done |
-| US11 | Sugerencias de nutrientes y fertilizantes | PG04 | Setup y utilización inicial para que la app móvil sugiera nuestrientes y fertilizantes. | Realizar configuración y lógica preeliminar para las sugerencias de nutrientes y fertilizantes. | 4 hours | Done |
+| US01 | Recopilación de datos de temperatura | PG01 | Setup y utilización inicial para que la app móvil recopile los datos de la temperatura. | Realizar configuración y lógica preliminar para la recopilación de los datos de temperatura. | 4 hours | Done |
+| US04 | Recomendaciones de falta de agua | PG02 | Setup y utilización inicial para que la app móvil haga recomendaciones sobre la falta de agua. | Realizar configuración y lógica preliminar para las recomendaciones de falta de agua. | 4 hours | Done |
+| US10 | Consejos para la elección de plantas | PG03 | Setup y utilización inicial para que la app móvil de consejos sobre elecciones de plantas. | Realizar configuración y lógica preliminar para los consejos de elección de plantas. | 4 hours | Done |
+| US11 | Sugerencias de nutrientes y fertilizantes | PG04 | Setup y utilización inicial para que la app móvil sugiera nutrientes y fertilizantes. | Realizar configuración y lógica preliminar para las sugerencias de nutrientes y fertilizantes. | 4 hours | Done |
 
 ##### Development Evidence for Sprint Review
 
-El código de este prototipo preliminar desarrollado en Flutter se encuentra alojado en un repositorio en GitHub en el enlace: (<https://github.com/nexgeniusupc/fitster_demo>)
+###### Mobile App
+
+El código de este prototipo preliminar desarrollado en Flutter se encuentra alojado en un repositorio en GitHub en el enlace: (<https://github.com/nexgeniusupc/plantguard-mobile>)
 
 Asimismo, en este repositorio se encuentra la evidencia de los principales commits realizados para cumplir con los objetivos y tareas relacionados a esta primera iteración.
 
-| Branch               | Commit id | Commit message                                    | Commited on (date) |
-| -------------------- | --------- | ------------------------------------------------- | ------------------ |
-| docs/release-v2.0.0  | 0f804f2   | Release v2.0.0                                    | 28/09/2023         |
-| docs/release-v2.0.0  | 17a178a   | Fix some images overflowing height                | 28/09/2023         |
-| docs/student-outcome | c804070   | Fix student outcome table breaks and styles       | 28/09/2023         |
-| docs/release-v2.0.0  | e26f24f   | Use HTML cover page to pin date to bottom of page | 28/09/2023         |
+| Branch  | Commit id | Commit message                           | Committed on (date) |
+| ------- | --------- | ---------------------------------------- | ------------------- |
+| develop | 9b4adf4   | feat: device pairing UI                  | 03/11/2023          |
+| develop | 6a0f015   | feat: added plant details view           | 03/11/2023          |
+| develop | f649951   | feat: added initial auth logic and views | 03/11/2023          |
+| develop | 06a48a4   | feat: added home view                    | 02/11/2023          |
+
+###### Backend
+
+El código de este nuestra api implementada para su consumo mediante la mobile app está desarrollado en TypeScript, se encuentra alojado en un repositorio en GitHub en el enlace: (<https://github.com/nexgeniusupc/plantguard-api>)
+
+Asimismo, en este repositorio se encuentra la evidencia de los principales commits realizados para cumplir con los objetivos y tareas relacionados a esta primera iteración.
+
+| Branch  | Commit id | Commit message                                               | Committed on (date) |
+| ------- | --------- | ------------------------------------------------------------ | ------------------- |
+| develop | f5cfdc0   | feat(devices): added initial impl of device registry service | 04/11/2023          |
+| develop | 2964522   | feat(devices): added initial impl of pairing service         | 04/11/2023          |
+| develop | 7054f51   | feat(devices): added full (untested) devices service         | 03/11/2023          |
+| develop | c22a7b9   | feat(auth): added initial impl of auth service               | 29/10/2023          |
 
 ##### Execution Evidence for Sprint Review
 
