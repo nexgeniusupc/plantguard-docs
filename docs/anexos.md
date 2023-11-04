@@ -3,6 +3,7 @@
 | Entrega | Enlace                         |
 | ------- | ------------------------------ |
 | TB1     | <https://youtu.be/FaEjfohmAfU> |
+| TB2     | <https://youtu.be/11FzGvZQTG4> |
 
 ### Videos adicionales
 
