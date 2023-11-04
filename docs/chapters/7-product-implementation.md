@@ -4,7 +4,7 @@
 
 En el desarrollo de nuestro proyecto, hemos seleccionado el IDE de Visual Studio Code (<https://code.visualstudio.com/>) como la herramienta principal para la creación tanto de la aplicación móvil como del backend. Cada uno de estos componentes será desarrollado en lenguajes específicos, que detallaremos a continuación. Adicionalmente elegimos Visual Studio Code debido a que Wokwi ofrece una integración para ejecutar el simulador de forma local.
 
-Para el desarrollo de la aplicación de prueba de concepto, hemos optado por el uso del framework Flutter (https://flutter.dev), el cual se basa en el lenguaje de programación Dart.
+Para el desarrollo de la aplicación de prueba de concepto, hemos optado por el uso del framework Flutter (<https://flutter.dev>), el cual se basa en el lenguaje de programación Dart.
 
 En el ámbito del backend, hemos elegido Cloudflare Workers (<https://workers.cloudflare.com/>) como nuestra herramienta de desarrollo. Esta elección se debe a su infraestructura generosa y gratuita.
 
@@ -85,10 +85,17 @@ Para esta primera entrega, los miembros del equipo colaboramos en conjunto para 
 <!--
 ### Validation Interviews
 
- #### Diseño de Entrevistas
+#### Diseño de Entrevistas
 
 #### Registro de Entrevistas
 
 #### Evaluaciones según heurísticas
+-->
 
-### Video About-the-Product -->
+### Video About-the-Product
+
+En el presente video, los integrantes del equipo exponen sus puntos de vista acerca de los logros alcanzados durante el semestre con los contenidos explorados del curso y la realización del proyecto. Asimismo, plantean cómo estos nuevos conocimientos nos serán de utilidad de cara a nuestro futuro rol como profesionales en el rubro.
+
+![About-the-Product](../static/video-about-the-product-tb2.png)
+
+Disponible en YouTube: <https://youtu.be/7lNg8SHNEG8>.
