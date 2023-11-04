@@ -87,12 +87,12 @@ Asimismo, en este repositorio se encuentra la evidencia de los principales commi
 
 A continuación, mostramos algunas de las pantallas desarrolladas para esta entrega de la aplicación móvil.
 
-![Splash](../static/app-splash.png)
-![Login](../static/app-login.png)
-![Home](../static/app-home.png)
-![Add device](../static/app-add-device.png)
-![Confirm device](../static/app-confirm-device.png)
-![Plant details](../static/app-plant-details.png)
+![Splash](../static/app-splash.png) {.img-w-25}
+![Login](../static/app-login.png) {.img-w-25}
+![Home](../static/app-home.png) {.img-w-25}
+![Add device](../static/app-add-device.png) {.img-w-25}
+![Confirm device](../static/app-confirm-device.png) {.img-w-25}
+![Plant details](../static/app-plant-details.png) {.img-w-25}
 
 ##### Services Documentation Evidence for Sprint Review
 

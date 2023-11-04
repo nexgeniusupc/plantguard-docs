@@ -98,6 +98,10 @@ ul:empty {
   width: 75%;
 }
 
+.img-w-25 img {
+  width: 25%;
+}
+
 .student-outcomes-pre {
   page-break-inside: avoid;
 }
