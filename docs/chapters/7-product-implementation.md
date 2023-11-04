@@ -43,11 +43,30 @@ Para el despliegue del backend, hemos realizado una integración con GitHub Acti
 
 ##### Sprint Planning 1
 
+Para este primer sprint, decidimos sentar las bases de la aplicación, empezando por la autenticación y la vinculación de dispositivos IoT (en este caso simulados en Wokwi) con una cuenta. Esto servirá para, en siguientes sprints, implementar funcionalidades que dependan de los datos que el dispositivo IoT pueda recopilar.
+
 ##### Sprint Backlog 1
+
+| User Stories | User Stories | Work-Item / Task | Work-Item / Task | Work-Item / Task | Work-Item / Task | Work-Item / Task |
+| Id | Title | Id | Title | Description | Estimation | Status |
+| ------------ | ----------------------------------------- | -----------------| -----------------------------------------------------------------------------------------------| ----------------------------------------------------------------------------------------------- | ---------------- | ---------------- |
+| US01 | Recopilación de datos de temperatura | PG01 | Setup y utilización inicial para que la app móvil recopile los datos de la temperatura. | Realizar configuración y lógica preeliminar para la recopilación de los datos de temperatura. | 4 hours | Done |
+| US04 | Recomendaciones de falta de agua | PG02 | Setup y utilización inicial para que la app móvil haga recomendaciones sobre la falta de agua. | Realizar configuración y lógica preeliminar para las recomendaciones de falta de agua. | 4 hours | Done |
+| US10 | Consejos para la elección de plantas | PG03 | Setup y utilización inicial para que la app móvil de consejos sobre elecciones de plantas. | Realizar configuración y lógica preeliminar para los consejos de elección de plantas. | 4 hours | Done |
+| US11 | Sugerencias de nutrientes y fertilizantes | PG04 | Setup y utilización inicial para que la app móvil sugiera nuestrientes y fertilizantes. | Realizar configuración y lógica preeliminar para las sugerencias de nutrientes y fertilizantes. | 4 hours | Done |
 
 ##### Development Evidence for Sprint Review
 
-##### Testing Suite Evidence for Sprint Review
+El código de este prototipo preliminar desarrollado en Flutter se encuentra alojado en un repositorio en GitHub en el enlace: (<https://github.com/nexgeniusupc/fitster_demo>)
+
+Asimismo, en este repositorio se encuentra la evidencia de los principales commits realizados para cumplir con los objetivos y tareas relacionados a esta primera iteración.
+
+| Branch               | Commit id | Commit message                                    | Commited on (date) |
+| -------------------- | --------- | ------------------------------------------------- | ------------------ |
+| docs/release-v2.0.0  | 0f804f2   | Release v2.0.0                                    | 28/09/2023         |
+| docs/release-v2.0.0  | 17a178a   | Fix some images overflowing height                | 28/09/2023         |
+| docs/student-outcome | c804070   | Fix student outcome table breaks and styles       | 28/09/2023         |
+| docs/release-v2.0.0  | e26f24f   | Use HTML cover page to pin date to bottom of page | 28/09/2023         |
 
 ##### Execution Evidence for Sprint Review
 
