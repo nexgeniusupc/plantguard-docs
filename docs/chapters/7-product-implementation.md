@@ -57,7 +57,16 @@ Para este primer sprint, decidimos sentar las bases de la aplicación, empezando
 
 ##### Development Evidence for Sprint Review
 
-##### Testing Suite Evidence for Sprint Review
+El código de este prototipo preliminar desarrollado en Flutter se encuentra alojado en un repositorio en GitHub en el enlace: (<https://github.com/nexgeniusupc/fitster_demo>)
+
+Asimismo, en este repositorio se encuentra la evidencia de los principales commits realizados para cumplir con los objetivos y tareas relacionados a esta primera iteración.
+
+| Branch               | Commit id | Commit message                                    | Commited on (date) |
+| -------------------- | --------- | ------------------------------------------------- | ------------------ |
+| docs/release-v2.0.0  | 0f804f2   | Release v2.0.0                                    | 28/09/2023         |
+| docs/release-v2.0.0  | 17a178a   | Fix some images overflowing height                | 28/09/2023         |
+| docs/student-outcome | c804070   | Fix student outcome table breaks and styles       | 28/09/2023         |
+| docs/release-v2.0.0  | e26f24f   | Use HTML cover page to pin date to bottom of page | 28/09/2023         |
 
 ##### Execution Evidence for Sprint Review
 
