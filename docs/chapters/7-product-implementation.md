@@ -159,6 +159,24 @@ Para este segundo sprint, hemos consolidado los cimientos previamente establecid
 
 ##### Sprint Backlog 2
 
+| User Stories | User Stories | Work-Item / Task | Work-Item / Task | Work-Item / Task | Work-Item / Task | Work-Item / Task |
+| Id | Title | Id | Title | Description | Estimation | Status |
+| ------------ | ----------------------------------------- | -----------------| -----------------------------------------------------------------------------------------------| ----------------------------------------------------------------------------------------------- | ---------------- | ---------------- |
+| US02 | Recopilación de datos de humedad de suelo | PG05 | Setup e implementación para que la app móvil recopile los datos de la humedad del suelo. | Realizar configuración y lógica para la recopilación de los datos de la humedad del suelo. | 4 hours | Done |
+| US03 | Recopilación de datos de pH del suelo | PG06 | Setup e implementación para que la app móvil recopile los datos del pH del suelo. | Realizar configuración y lógica para la recopilación de los datos del pH del suelo. | 4 hours | Done |
+| US05 | Predicción de tiempo de regado | PG07 | Setup e implementación para que la app móvil prediga el tiempo de regado. | Realizar configuración y lógica para la predicción del tiempo de regado. | 4 hours | Done |
+| US06 | Alertas de tierra mala | PG08 | Setup e implementación para que la app móvil alerte sobre la tierra en mal estado. | Realizar configuración y lógica para las alertas sobre la tierra en mal estado. | 4 hours | Done |
+| US08 | Monitoreo de humedad del aire | PG10 | Setup e implementación para que la app móvil monitoree la humedad del aire. | Realizar configuración y lógica para el monitoreo de la humedad en el aire. | 4 hours | Done |
+| US09 | Registro de niveles de luz natural | PG11 | Setup e implementación para que la app móvil registre los niveles de luz natural. | Realizar configuración y lógica para el registro de los niveles de luz natural. | 4 hours | Done |
+| US12 | Alertas de plagas y enfermedades | PG12 | Setup e implementación para que la app móvil alerte sobre plagas y enfermedades. | Realizar configuración y lógica para las alertas sobre plagas y enfermedades. | 4 hours | Done |
+
+<!--
+| US07 | Sincronización multi-dispositivo | PG09 |  |  | 4 hours | Done |
+| US13 | Compartir datos con otros usuarios | PG13 |  |  | 4 hours | Done |
+| US14 | Historial de datos accesible en la nube | PG14 |  |  | 4 hours | Done |
+| US15 | Seguridad de datos en la nube | PG15 |  |  | 4 hours | Done |
+-->
+
 ##### Development Evidence for Sprint Review
 
 ##### Testing Suite Evidence for Sprint Review
