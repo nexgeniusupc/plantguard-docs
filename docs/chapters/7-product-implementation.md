@@ -151,6 +151,26 @@ Para esta primera entrega, los miembros del equipo colaboramos en conjunto para 
 
 ![Insights network](../static/insights-sprint-1.jpeg)
 
+#### Sprint 2
+
+##### Sprint Planning 2
+
+Para este segundo sprint, hemos consolidado los cimientos previamente establecidos en el desarrollo de la aplicación. Nos enfocamos en perfeccionar la autenticación y la integración de dispositivos IoT (en este caso, simulados en Wokwi) con cuentas de usuario. Este paso crucial sienta las bases para el éxito final del proyecto, ya que ahora contamos con una sólida infraestructura que nos permitirá implementar de manera eficiente y efectiva las funcionalidades finales. En los sprints subsiguientes, nos centraremos en aprovechar al máximo los datos recopilados por los dispositivos IoT para ofrecer características avanzadas y completar con éxito este emocionante proyecto.
+
+##### Sprint Backlog 2
+
+##### Development Evidence for Sprint Review
+
+##### Testing Suite Evidence for Sprint Review
+
+##### Execution Evidence for Sprint Review
+
+##### Services Documentation Evidence for Sprint Review
+
+##### Software Deployment Evidence for Sprint Review
+
+##### Team Collaboration Insights during Sprint
+
 <!--
 ### Validation Interviews
 
