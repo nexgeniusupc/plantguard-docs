@@ -249,6 +249,10 @@ Para el servicio de pairing, se implemetaron los siguientes endpoints:
 
 ##### Team Collaboration Insights during Sprint
 
+Para esta entrega final, los miembros del equipo colaboramos en conjunto para realizar las tareas establecidas, tanto a nivel de nuestro backend como el desarrollo de la aplicación móvil. En los repositorios podemos encontrar las principales contribuciones de cada miembro, así como en el presente informe se evidencia la colaboración e integración continua para otorgar la mayor calidad y el mejor esfuerzo en nuestra solución.
+
+![Insights network](../static/insights-sprint-2.jpeg)
+
 <!--
 ### Validation Interviews
 
