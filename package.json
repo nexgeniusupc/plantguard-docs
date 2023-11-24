@@ -1,6 +1,6 @@
 {
   "name": "plantguard-docs",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "System architecture documentation for PlantGuard, an IoT water monitoring device and mobile app.",
   "author": {
     "name": "NexGenius",
