@@ -50,10 +50,9 @@ Para este primer sprint, decidimos sentar las bases de la aplicación, empezando
 | User Stories | User Stories | Work-Item / Task | Work-Item / Task | Work-Item / Task | Work-Item / Task | Work-Item / Task |
 | Id | Title | Id | Title | Description | Estimation | Status |
 | ------------ | ----------------------------------------- | -----------------| -----------------------------------------------------------------------------------------------| ----------------------------------------------------------------------------------------------- | ---------------- | ---------------- |
-| US01 | Recopilación de datos de temperatura | PG01 | Setup y utilización inicial para que la app móvil recopile los datos de la temperatura. | Realizar configuración y lógica preliminar para la recopilación de los datos de temperatura. | 4 hours | Done |
-| US04 | Recomendaciones de falta de agua | PG02 | Setup y utilización inicial para que la app móvil haga recomendaciones sobre la falta de agua. | Realizar configuración y lógica preliminar para las recomendaciones de falta de agua. | 4 hours | Done |
-| US10 | Consejos para la elección de plantas | PG03 | Setup y utilización inicial para que la app móvil de consejos sobre elecciones de plantas. | Realizar configuración y lógica preliminar para los consejos de elección de plantas. | 4 hours | Done |
-| US11 | Sugerencias de nutrientes y fertilizantes | PG04 | Setup y utilización inicial para que la app móvil sugiera nutrientes y fertilizantes. | Realizar configuración y lógica preliminar para las sugerencias de nutrientes y fertilizantes. | 4 hours | Done |
+| US16 | Inicio de Sesión | PG01 | Setup e implementación del sistema de inicio de sesión a tu cuenta. | Realizar configuración y lógica para el inicio de sesión en la aplicación. | 4 hours | Done |
+| US17 | Registro de Cuenta | PG02 | Setup e implementación del sistema de registro de nuevas cuentas. | Realizar configuración y lógica para el sistema de registro de cuentas en la aplicación. | 4 hours | Done |
+| US18 | Registro de Dispositivos | PG03 | Setup e implementación del sistema de registro de dispositivos. | Realizar configuración y lógica para el sistema de registro de dispositivos. | 4 hours | Done |
 
 ##### Development Evidence for Sprint Review
 
