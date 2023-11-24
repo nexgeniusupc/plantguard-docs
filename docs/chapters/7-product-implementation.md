@@ -87,10 +87,15 @@ Asimismo, en este repositorio se encuentra la evidencia de los principales commi
 A continuación, mostramos algunas de las pantallas desarrolladas para esta entrega de la aplicación móvil.
 
 ![Splash](../static/app-splash.png) {.img-w-25}
+
 ![Login](../static/app-login.png) {.img-w-25}
+
 ![Home](../static/app-home.png) {.img-w-25}
+
 ![Add device](../static/app-add-device.png) {.img-w-25}
+
 ![Confirm device](../static/app-confirm-device.png) {.img-w-25}
+
 ![Plant details](../static/app-plant-details.png) {.img-w-25}
 
 ##### Services Documentation Evidence for Sprint Review
@@ -224,9 +229,13 @@ Asimismo, en este repositorio se encuentra la evidencia de los principales commi
 A continuación, mostramos algunas de las pantallas desarrolladas para esta entrega de la aplicación móvil y la implementación del backend.
 
 ![Splash](../static/app-splash.png) {.img-w-25}
+
 ![Confirm device](../static/app-confirm-device.png) {.img-w-25}
+
 ![Home App Sprint 2](../static/app-home-sprint-2.png) {.img-w-25}
+
 ![Plant details](../static/app-plant-details-sprint-2.png) {.img-w-25}
+
 ![Wokwi](../static/wokwi.png)
 
 ##### Services Documentation Evidence for Sprint Review
