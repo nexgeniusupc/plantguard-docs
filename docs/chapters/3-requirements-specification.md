@@ -34,6 +34,9 @@ A continuación, mostramos las historias de usuario que hemos considerado para e
 |     US13      | Compartir datos con otros usuarios        | Como usuario, quiero tener la opción de compartir mis datos de cuidado de plantas almacenados en la nube con otros usuarios para recibir consejos y colaborar en el cuidado de mis plantas                                 |  EP03   |
 |     US14      | Historial de datos accesible en la nube   | Como usuario, quiero un historial completo y accesible en la nube de todos los datos de cuidado de mis plantas para realizar un seguimiento a largo plazo y tomar decisiones informadas                                    |  EP03   |
 |     US15      | Seguridad de datos en la nube             | Como usuario, quiero que mis datos de cuidado de plantas estén seguros y protegidos en la nube de la aplicación PlantGuard, con medidas de privacidad adecuadas para mantener la confidencialidad de mis registros         |  EP03   |
+|     US16      | Inicio de sesión                          | Como usuario, quiero poder iniciar sesión en la aplicación para poder acceder a toda mi información y datos guardados en mi cuenta                                                                                         |  EP04   |
+|     US17      | Registro de cuenta                        | Como usuario, quiero poder registrarme con una nueva cuenta en la aplicación para poder guardar toda mi información y datos que vaya recopilando en mi propia cuenta                                                       |  EP04   |
+|     US18      | Registro de dispositivos                  | Como usuario, quiero registrar en mi cuenta los dispositivos de PlantGuard que he comprado, para observar los datos recopilados por este desde mi cuenta                                                                   |  EP04   |
 
 ### Impact Mapping
 
