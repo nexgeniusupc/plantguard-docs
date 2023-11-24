@@ -183,6 +183,14 @@ Para este segundo sprint, hemos consolidado los cimientos previamente establecid
 
 ##### Sprint Backlog 2
 
+| User Stories | User Stories | Work-Item / Task | Work-Item / Task | Work-Item / Task | Work-Item / Task | Work-Item / Task |
+| Id | Title | Id | Title | Description | Estimation | Status |
+| ------------ | ----------------------------------------- | -----------------| -----------------------------------------------------------------------------------------------| ----------------------------------------------------------------------------------------------- | ---------------- | ---------------- |
+| US01 | Recopilación de datos de temperatura | PG01 | Setup y utilización inicial para que la app móvil recopile los datos de la temperatura. | Realizar configuración y lógica preliminar para la recopilación de los datos de temperatura. | 4 hours | Done |
+| US02 | Recopilación de datos de humedad de suelo | PG05 | Setup e implementación para que la app móvil recopile los datos de la humedad del suelo. | Realizar configuración y lógica para la recopilación de los datos de la humedad del suelo. | 4 hours | Done |
+| US10 | Consejos para la elección de plantas | PG03 | Setup y utilización inicial para que la app móvil de consejos sobre elecciones de plantas. | Realizar configuración y lógica preliminar para los consejos de elección de plantas. | 4 hours | Done |
+| US11 | Sugerencias de nutrientes y fertilizantes | PG04 | Setup y utilización inicial para que la app móvil sugiera nutrientes y fertilizantes. | Realizar configuración y lógica preliminar para las sugerencias de nutrientes y fertilizantes. | 4 hours | Done |
+
 ##### Development Evidence for Sprint Review
 
 ##### Testing Suite Evidence for Sprint Review
