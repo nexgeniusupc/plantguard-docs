@@ -199,6 +199,27 @@ Para este segundo sprint, hemos consolidado los cimientos previamente establecid
 
 ##### Services Documentation Evidence for Sprint Review
 
+Para el Sprint #2, se desarrollaron los siguientes endpoints:
+
+- `POST /api/v1/devices/measure`: Actualiza la última medición generada por un dispositivo IoT
+  - Cabeceras
+    - `Authorization` en el [formato Bearer](https://swagger.io/docs/specification/authentication/bearer-authentication/).
+  - Body
+    - `serialNumber`: string, debe cumplir el RegExp: `/\d{4}-\d{4}-\d{2}/g`
+    - `temperature`: number
+    - `humidity`: number
+  - Respuesta
+    - Retorna HTTP 204 con un cuerpo vacío.
+- `GET /api/v1/devices/:id/current`: Obtiene el último registro guardado de medición generada por un dispositivo IoT
+  - Cabeceras
+    - `Authorization` en el [formato Bearer](https://swagger.io/docs/specification/authentication/bearer-authentication/).
+  - Parámetros de ruta
+    - `id`: string, debe ser un UUID válido
+  - Respuesta, en formato JSON
+    - `date`: fecha y hora en formato [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html).
+    - `temperature`: number
+    - `humidity`: number
+
 ##### Software Deployment Evidence for Sprint Review
 
 ##### Team Collaboration Insights during Sprint
