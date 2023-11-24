@@ -175,6 +175,24 @@ Para esta primera entrega, los miembros del equipo colaboramos en conjunto para 
 #### Evaluaciones según heurísticas
 -->
 
+#### Sprint 2
+
+##### Sprint Planning 2
+
+##### Sprint Backlog 2
+
+##### Development Evidence for Sprint Review
+
+##### Testing Suite Evidence for Sprint Review
+
+##### Execution Evidence for Sprint Review
+
+##### Services Documentation Evidence for Sprint Review
+
+##### Software Deployment Evidence for Sprint Review
+
+##### Team Collaboration Insights during Sprint
+
 ### Video About-the-Product
 
 En el presente video, los integrantes del equipo exponen sus puntos de vista acerca de los logros alcanzados durante el semestre con los contenidos explorados del curso y la realización del proyecto. Asimismo, plantean cómo estos nuevos conocimientos nos serán de utilidad de cara a nuestro futuro rol como profesionales en el rubro.
