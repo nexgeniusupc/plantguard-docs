@@ -225,8 +225,8 @@ A continuación, mostramos algunas de las pantallas desarrolladas para esta entr
 
 ![Splash](../static/app-splash.png) {.img-w-25}
 ![Confirm device](../static/app-confirm-device.png) {.img-w-25}
-![Plant details](../static/app-plant-details.png) {.img-w-25}
-
+![Home App Sprint 2](../static/app-home-sprint-2.png) {.img-w-25}
+![Plant details](../static/app-plant-details-sprint-2.png) {.img-w-25}
 ![Wokwi](../static/wokwi.png)
 
 ##### Services Documentation Evidence for Sprint Review
