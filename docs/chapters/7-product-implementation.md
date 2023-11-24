@@ -16,7 +16,7 @@ Además, como parte de nuestras herramientas de desarrollo en la nube (SaaS), co
 
 Hemos optado por emplear GitHub para gestionar y mantener un registro de las diferentes versiones de nuestro proyecto en desarrollo. Para ello, hemos creado una organización denominada NexGenius, que contiene todos los repositorios necesarios. Puedes encontrar estos repositorios en <https://github.com/nexgeniusupc/>.
 
-En cuanto a la simulación de IoT que realizamos en Wokwi, es importante destacar que el código correspondiente no se gestiona mediante control de versiones. Esto se debe a que Wokwi es una plataforma en la nube dedicada a la simulación de dispositivos IoT, y no requiere control de versiones en el sentido tradicional. Para acceder a nuestra simulación, puedes visitar el siguiente enlace: <https://wokwi.com/projects/380426650740225025.>
+En cuanto a la simulación de IoT que realizamos en Wokwi, es importante destacar que el código correspondiente no se gestiona mediante control de versiones. Esto se debe a que Wokwi es una plataforma en la nube dedicada a la simulación de dispositivos IoT, y no requiere control de versiones en el sentido tradicional. Para acceder a nuestra simulación, puedes visitar el siguiente enlace: <https://wokwi.com/projects/380426650740225025>.
 
 Además, a continuación, proporcionamos los enlaces pertinentes a los repositorios de cada una de las soluciones implementadas en nuestro proyecto:
 
@@ -47,12 +47,11 @@ Para este primer sprint, decidimos sentar las bases de la aplicación, empezando
 
 ##### Sprint Backlog 1
 
-| User Stories | User Stories | Work-Item / Task | Work-Item / Task | Work-Item / Task | Work-Item / Task | Work-Item / Task |
-| Id | Title | Id | Title | Description | Estimation | Status |
-| ------------ | ----------------------------------------- | -----------------| -----------------------------------------------------------------------------------------------| ----------------------------------------------------------------------------------------------- | ---------------- | ---------------- |
-| US16 | Inicio de Sesión | PG01 | Setup e implementación del sistema de inicio de sesión a tu cuenta. | Realizar configuración y lógica para el inicio de sesión en la aplicación. | 4 hours | Done |
-| US17 | Registro de Cuenta | PG02 | Setup e implementación del sistema de registro de nuevas cuentas. | Realizar configuración y lógica para el sistema de registro de cuentas en la aplicación. | 4 hours | Done |
-| US18 | Registro de Dispositivos | PG03 | Setup e implementación del sistema de registro de dispositivos. | Realizar configuración y lógica para el sistema de registro de dispositivos. | 4 hours | Done |
+| US ID | US Title                 | Work-Item / Task Id | Work-Item / Task Title                                              | Work-Item / Task Description                                                             | Work-Item / Task Estimation | Work-Item / Task Status |
+| ----- | ------------------------ | ------------------- | ------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | --------------------------- | ----------------------- |
+| US16  | Inicio de Sesión         | PG01                | Setup e implementación del sistema de inicio de sesión a tu cuenta. | Realizar configuración y lógica para el inicio de sesión en la aplicación.               | 4 hours                     | Done                    |
+| US17  | Registro de Cuenta       | PG02                | Setup e implementación del sistema de registro de nuevas cuentas.   | Realizar configuración y lógica para el sistema de registro de cuentas en la aplicación. | 4 hours                     | Done                    |
+| US18  | Registro de Dispositivos | PG03                | Setup e implementación del sistema de registro de dispositivos.     | Realizar configuración y lógica para el sistema de registro de dispositivos.             | 4 hours                     | Done                    |
 
 ##### Development Evidence for Sprint Review
 
@@ -62,7 +61,7 @@ El código de este prototipo preliminar desarrollado en Flutter se encuentra alo
 
 Asimismo, en este repositorio se encuentra la evidencia de los principales commits realizados para cumplir con los objetivos y tareas relacionados a esta primera iteración.
 
-| Branch  | Commit id | Commit message                           | Committed on (date) |
+| Branch  | Commit ID | Commit Message                           | Committed on (date) |
 | ------- | --------- | ---------------------------------------- | ------------------- |
 | develop | 9b4adf4   | feat: device pairing UI                  | 03/11/2023          |
 | develop | 6a0f015   | feat: added plant details view           | 03/11/2023          |
@@ -75,7 +74,7 @@ El código de este nuestra api implementada para su consumo mediante la mobile a
 
 Asimismo, en este repositorio se encuentra la evidencia de los principales commits realizados para cumplir con los objetivos y tareas relacionados a esta primera iteración.
 
-| Branch  | Commit id | Commit message                                               | Committed on (date) |
+| Branch  | Commit ID | Commit Message                                               | Committed on (date) |
 | ------- | --------- | ------------------------------------------------------------ | ------------------- |
 | develop | f5cfdc0   | feat(devices): added initial impl of device registry service | 04/11/2023          |
 | develop | 2964522   | feat(devices): added initial impl of pairing service         | 04/11/2023          |
@@ -128,7 +127,7 @@ Para el servicio de dispositivos, se implementaron los siguientes endpoints. Tod
 - `DELETE /api/v1/devices/:id`: Elimina un `Device` por su ID. Tiene los siguientes parámetros de ruta:
   - `id`: string, debe ser un UUID válido
 
-Para el servicio de pairing, se implemetaron los siguientes endpoints:
+Para el servicio de pairing, se implementaron los siguientes endpoints:
 
 - `POST /api/v1/pair/init`: Inicializa el proceso de pairing de un `Device`
   - Body
@@ -188,13 +187,12 @@ Para este segundo sprint, hemos consolidado los cimientos previamente establecid
 
 ##### Sprint Backlog 2
 
-| User Stories | User Stories | Work-Item / Task | Work-Item / Task | Work-Item / Task | Work-Item / Task | Work-Item / Task |
-| Id | Title | Id | Title | Description | Estimation | Status |
-| ------------ | ----------------------------------------- | -----------------| -----------------------------------------------------------------------------------------------| ----------------------------------------------------------------------------------------------- | ---------------- | ---------------- |
-| US01 | Recopilación de datos de temperatura | PG04 | Setup y utilización inicial para que la app móvil recopile los datos de la temperatura. | Realizar configuración y lógica preliminar para la recopilación de los datos de temperatura. | 4 hours | Done |
-| US02 | Recopilación de datos de humedad de suelo | PG05 | Setup e implementación para que la app móvil recopile los datos de la humedad del suelo. | Realizar configuración y lógica para la recopilación de los datos de la humedad del suelo. | 4 hours | Done |
-| US10 | Consejos para la elección de plantas | PG06 | Setup y utilización inicial para que la app móvil de consejos sobre elecciones de plantas. | Realizar configuración y lógica preliminar para los consejos de elección de plantas. | 4 hours | Done |
-| US11 | Sugerencias de nutrientes y fertilizantes | PG07 | Setup y utilización inicial para que la app móvil sugiera nutrientes y fertilizantes. | Realizar configuración y lógica preliminar para las sugerencias de nutrientes y fertilizantes. | 4 hours | Done |
+| US ID | US Title                                  | Work-Item / Task Id | Work-Item / Task Title                                                                     | Work-Item / Task Description                                                                   | Work-Item / Task Estimation | Work-Item / Task Status |
+| ----- | ----------------------------------------- | ------------------- | ------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------- | --------------------------- | ----------------------- |
+| US01  | Recopilación de datos de temperatura      | PG04                | Setup y utilización inicial para que la app móvil recopile los datos de la temperatura.    | Realizar configuración y lógica preliminar para la recopilación de los datos de temperatura.   | 4 hours                     | Done                    |
+| US02  | Recopilación de datos de humedad de suelo | PG05                | Setup e implementación para que la app móvil recopile los datos de la humedad del suelo.   | Realizar configuración y lógica para la recopilación de los datos de la humedad del suelo.     | 4 hours                     | Done                    |
+| US10  | Consejos para la elección de plantas      | PG06                | Setup y utilización inicial para que la app móvil de consejos sobre elecciones de plantas. | Realizar configuración y lógica preliminar para los consejos de elección de plantas.           | 4 hours                     | Done                    |
+| US11  | Sugerencias de nutrientes y fertilizantes | PG07                | Setup y utilización inicial para que la app móvil sugiera nutrientes y fertilizantes.      | Realizar configuración y lógica preliminar para las sugerencias de nutrientes y fertilizantes. | 4 hours                     | Done                    |
 
 ##### Development Evidence for Sprint Review
 
@@ -204,7 +202,7 @@ El código de nuestra aplicación móvil final desarrollado en Flutter se encuen
 
 Asimismo, en este repositorio se encuentra la evidencia de los principales commits realizados para cumplir con los objetivos y tareas relacionados a esta segunda y final iteración.
 
-| Branch | Commit id | Commit message                                          | Committed on (date) |
+| Branch | Commit ID | Commit Message                                          | Committed on (date) |
 | ------ | --------- | ------------------------------------------------------- | ------------------- |
 | main   | eb27934   | ci: added workflow_dispatch event for environment build | 24/11/2023          |
 | main   | c6d628a   | feat: added real device connection and info             | 24/11/2023          |
@@ -217,7 +215,7 @@ El código de este nuestra api implementada para su consumo mediante la mobile a
 
 Asimismo, en este repositorio se encuentra la evidencia de los principales commits realizados para cumplir con los objetivos y tareas relacionados a esta segunda y final iteración.
 
-| Branch  | Commit id | Commit message                                      | Committed on (date) |
+| Branch  | Commit ID | Commit Message                                      | Committed on (date) |
 | ------- | --------- | --------------------------------------------------- | ------------------- |
 | develop | de1b005   | chore(release): bump package to v0.1.1              | 24/11/2023          |
 | develop | 735ed35   | feat: added device measurement endpoints            | 24/11/2023          |
@@ -235,6 +233,8 @@ A continuación, mostramos algunas de las pantallas desarrolladas para esta entr
 ![Home App Sprint 2](../static/app-home-sprint-2.png) {.img-w-25}
 
 ![Plant details](../static/app-plant-details-sprint-2.png) {.img-w-25}
+
+A continuación, se adjunta una captura de nuestro proyecto en Wokwi, visible en el siguiente enlace: <https://wokwi.com/projects/380426650740225025>.
 
 ![Wokwi](../static/wokwi.png)
 
