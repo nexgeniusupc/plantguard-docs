@@ -203,6 +203,10 @@ Para este segundo sprint, hemos consolidado los cimientos previamente establecid
 
 ##### Team Collaboration Insights during Sprint
 
+Para este segundo sprint, hemos consolidado los cimientos previamente establecidos en el desarrollo de la aplicación. Nos enfocamos en perfeccionar la autenticación y la integración de dispositivos IoT (en este caso, simulados en Wokwi) con cuentas de usuario. Este paso crucial sienta las bases para el éxito final del proyecto, ya que ahora contamos con una sólida infraestructura que nos permitirá implementar de manera eficiente y efectiva las funcionalidades finales. En los sprints subsiguientes, nos centraremos en aprovechar al máximo los datos recopilados por los dispositivos IoT para ofrecer características avanzadas y completar con éxito este emocionante proyecto.
+
+![Insights network](../static/insights-sprint-2.jpeg)
+
 ### Video About-the-Product
 
 En el presente video, los integrantes del equipo exponen sus puntos de vista acerca de los logros alcanzados durante el semestre con los contenidos explorados del curso y la realización del proyecto. Asimismo, plantean cómo estos nuevos conocimientos nos serán de utilidad de cara a nuestro futuro rol como profesionales en el rubro.
