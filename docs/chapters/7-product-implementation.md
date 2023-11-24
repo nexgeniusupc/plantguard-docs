@@ -193,9 +193,41 @@ Para este segundo sprint, hemos consolidado los cimientos previamente establecid
 
 ##### Development Evidence for Sprint Review
 
-##### Testing Suite Evidence for Sprint Review
+###### Mobile App
+
+El código de nuestra aplicación móvil final desarrollado en Flutter se encuentra alojado en un repositorio en GitHub en el enlace: (<https://github.com/nexgeniusupc/plantguard-mobile>)
+
+Asimismo, en este repositorio se encuentra la evidencia de los principales commits realizados para cumplir con los objetivos y tareas relacionados a esta segunda y final iteración.
+
+| Branch | Commit id | Commit message                                          | Committed on (date) |
+| ------ | --------- | ------------------------------------------------------- | ------------------- |
+| main   | eb27934   | ci: added workflow_dispatch event for environment build | 24/11/2023          |
+| main   | c6d628a   | feat: added real device connection and info             | 24/11/2023          |
+| main   | f030f5d   | feat: fixup styling and make views responsive           | 24/11/2023          |
+| main   | 95e1dba   | feat: make HomeView and AppCard responsive              | 24/11/2023          |
+
+###### Backend
+
+El código de este nuestra api implementada para su consumo mediante la mobile app está desarrollado en TypeScript, se encuentra alojado en un repositorio en GitHub en el enlace: (<https://github.com/nexgeniusupc/plantguard-api>)
+
+Asimismo, en este repositorio se encuentra la evidencia de los principales commits realizados para cumplir con los objetivos y tareas relacionados a esta segunda y final iteración.
+
+| Branch  | Commit id | Commit message                                      | Committed on (date) |
+| ------- | --------- | --------------------------------------------------- | ------------------- |
+| develop | de1b005   | chore(release): bump package to v0.1.1              | 24/11/2023          |
+| develop | 735ed35   | feat: added device measurement endpoints            | 24/11/2023          |
+| develop | 630e7c4   | fix: incorrect type used for DeviceListResponseData | 24/11/2023          |
+| develop | 64e2e2f   | ci: enable corepack before running setup-node       | 24/11/2023          |
 
 ##### Execution Evidence for Sprint Review
+
+A continuación, mostramos algunas de las pantallas desarrolladas para esta entrega de la aplicación móvil y la implementación del backend.
+
+![Splash](../static/app-splash.png) {.img-w-25}
+![Confirm device](../static/app-confirm-device.png) {.img-w-25}
+![Plant details](../static/app-plant-details.png) {.img-w-25}
+
+![Wokwi](../static/wokwi.png)
 
 ##### Services Documentation Evidence for Sprint Review
 
@@ -221,6 +253,13 @@ Para el Sprint #2, se desarrollaron los siguientes endpoints:
     - `humidity`: number
 
 ##### Software Deployment Evidence for Sprint Review
+
+Utilizamos Cloudflare Workers para poder desplegar automáticamente el backend con cada cambio realizado por los miembros del equipo. Esta plataforma se integra con el repositorio de GitHub a través de GitHub Actions para detectar los cambios y generar despliegues para las ramas main y develop, siendo los entornos de producción y staging respectivamente. El enlace de la versión de producción es el siguiente: <https://plantguard-api.dalbitresb.com>.
+
+Se pueden visualizar a continuación la configuración de GitHub Actions:
+
+![GitHub Actions Config](../static/github-actions.jpeg)
+![CloudFare Deployment](../static/deployment.png)
 
 ##### Team Collaboration Insights during Sprint
 
